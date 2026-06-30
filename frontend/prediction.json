@@ -1,0 +1,194 @@
+{
+  "generated_at": "2026-06-30T18:37:47.919167",
+  "game": "Fantasy 5",
+  "number_range": "1-39",
+  "draw_count": 5,
+  "data_count": 682,
+  "last_draw_date": "2026-06-29",
+  "confidence": "B (统计级, 非因果级)",
+  "disclaimer": "本软件不声称能预测彩票中奖号码。彩票开奖本质为随机过程，模型输出的概率排序仅为统计参考，不构成投注建议。",
+  "weights": {
+    "freq": 0.08,
+    "bayesian": 0.22,
+    "markov": 0.36,
+    "joint": 0.34,
+    "fft": 0.01,
+    "monte_carlo": 0.0
+  },
+  "avoid": {
+    "top2": [
+      {
+        "number": 4,
+        "p_low": 0.9075
+      },
+      {
+        "number": 26,
+        "p_low": 0.8943
+      }
+    ],
+    "top4": [
+      {
+        "number": 4,
+        "p_low": 0.9075
+      },
+      {
+        "number": 26,
+        "p_low": 0.8943
+      },
+      {
+        "number": 24,
+        "p_low": 0.8846
+      },
+      {
+        "number": 12,
+        "p_low": 0.8815
+      }
+    ],
+    "top10": [
+      {
+        "number": 4,
+        "p_low": 0.9075
+      },
+      {
+        "number": 26,
+        "p_low": 0.8943
+      },
+      {
+        "number": 24,
+        "p_low": 0.8846
+      },
+      {
+        "number": 12,
+        "p_low": 0.8815
+      },
+      {
+        "number": 22,
+        "p_low": 0.8803
+      },
+      {
+        "number": 13,
+        "p_low": 0.88
+      },
+      {
+        "number": 34,
+        "p_low": 0.8797
+      },
+      {
+        "number": 7,
+        "p_low": 0.8785
+      },
+      {
+        "number": 15,
+        "p_low": 0.8748
+      },
+      {
+        "number": 39,
+        "p_low": 0.8726
+      }
+    ]
+  },
+  "rebound": {
+    "top2": [
+      {
+        "number": 4,
+        "p_low": 0.9595,
+        "gap": 21,
+        "gap_bonus": 0.042
+      },
+      {
+        "number": 7,
+        "p_low": 0.9545,
+        "gap": 33,
+        "gap_bonus": 0.066
+      }
+    ],
+    "top4": [
+      {
+        "number": 4,
+        "p_low": 0.9595,
+        "gap": 21,
+        "gap_bonus": 0.042
+      },
+      {
+        "number": 7,
+        "p_low": 0.9545,
+        "gap": 33,
+        "gap_bonus": 0.066
+      },
+      {
+        "number": 26,
+        "p_low": 0.9363,
+        "gap": 16,
+        "gap_bonus": 0.032
+      },
+      {
+        "number": 10,
+        "p_low": 0.9253,
+        "gap": 40,
+        "gap_bonus": 0.08
+      }
+    ],
+    "top10": [
+      {
+        "number": 4,
+        "p_low": 0.9595,
+        "gap": 21,
+        "gap_bonus": 0.042
+      },
+      {
+        "number": 7,
+        "p_low": 0.9545,
+        "gap": 33,
+        "gap_bonus": 0.066
+      },
+      {
+        "number": 26,
+        "p_low": 0.9363,
+        "gap": 16,
+        "gap_bonus": 0.032
+      },
+      {
+        "number": 10,
+        "p_low": 0.9253,
+        "gap": 40,
+        "gap_bonus": 0.08
+      },
+      {
+        "number": 39,
+        "p_low": 0.9026,
+        "gap": 10,
+        "gap_bonus": 0.02
+      },
+      {
+        "number": 17,
+        "p_low": 0.9011,
+        "gap": 10,
+        "gap_bonus": 0.02
+      },
+      {
+        "number": 28,
+        "p_low": 0.8993,
+        "gap": 19,
+        "gap_bonus": 0.038
+      },
+      {
+        "number": 24,
+        "p_low": 0.8986,
+        "gap": 7,
+        "gap_bonus": 0.014
+      },
+      {
+        "number": 13,
+        "p_low": 0.898,
+        "gap": 9,
+        "gap_bonus": 0.018
+      },
+      {
+        "number": 31,
+        "p_low": 0.8937,
+        "gap": 18,
+        "gap_bonus": 0.036
+      }
+    ]
+  }
+}

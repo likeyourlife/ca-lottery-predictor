@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv
+venv/
+*.egg-info/
+dist/
+build/
+*.log
+.DS_Store
+data/fantasy5/*.csv
+data/fantasy5/*.json
+data/daily3/
+data/daily4/
+data/features/
+models/
