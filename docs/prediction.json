@@ -1,89 +1,89 @@
 {
-  "generated_at": "2026-07-01T10:48:21.661376",
+  "generated_at": "2026-07-01T15:15:06.766965",
   "game": "Fantasy 5",
   "number_range": "1-39",
   "draw_count": 5,
-  "data_count": 1001,
-  "last_draw_date": "2026-06-29",
+  "data_count": 1002,
+  "last_draw_date": "2026-06-30",
   "confidence": "B (统计级, 非因果级)",
   "disclaimer": "本软件不声称能预测彩票中奖号码。彩票开奖本质为随机过程，模型输出的概率排序仅为统计参考，不构成投注建议。",
   "weights": {
-    "freq": 0.08,
-    "bayesian": 0.22,
-    "markov": 0.36,
-    "joint": 0.34,
-    "fft": 0.01,
+    "freq": 0.02,
+    "bayesian": 0.1,
+    "markov": 0.6,
+    "joint": 0.26,
+    "fft": 0.02,
     "monte_carlo": 0.0
   },
   "avoid": {
     "top2": [
       {
         "number": 4,
-        "p_low": 0.9092
+        "p_low": 0.9076
       },
       {
-        "number": 24,
-        "p_low": 0.8941
+        "number": 22,
+        "p_low": 0.8968
       }
     ],
     "top4": [
       {
         "number": 4,
-        "p_low": 0.9092
-      },
-      {
-        "number": 24,
-        "p_low": 0.8941
+        "p_low": 0.9076
       },
       {
         "number": 22,
-        "p_low": 0.8848
+        "p_low": 0.8968
       },
       {
-        "number": 26,
-        "p_low": 0.8807
+        "number": 24,
+        "p_low": 0.8907
+      },
+      {
+        "number": 12,
+        "p_low": 0.8849
       }
     ],
     "top10": [
       {
         "number": 4,
-        "p_low": 0.9092
-      },
-      {
-        "number": 24,
-        "p_low": 0.8941
+        "p_low": 0.9076
       },
       {
         "number": 22,
-        "p_low": 0.8848
+        "p_low": 0.8968
+      },
+      {
+        "number": 24,
+        "p_low": 0.8907
+      },
+      {
+        "number": 12,
+        "p_low": 0.8849
       },
       {
         "number": 26,
-        "p_low": 0.8807
+        "p_low": 0.8835
       },
       {
         "number": 8,
-        "p_low": 0.879
+        "p_low": 0.8827
       },
       {
         "number": 7,
-        "p_low": 0.8772
-      },
-      {
-        "number": 28,
-        "p_low": 0.8763
-      },
-      {
-        "number": 3,
-        "p_low": 0.8746
+        "p_low": 0.8807
       },
       {
         "number": 25,
-        "p_low": 0.8744
+        "p_low": 0.8791
       },
       {
-        "number": 20,
-        "p_low": 0.8726
+        "number": 3,
+        "p_low": 0.8784
+      },
+      {
+        "number": 17,
+        "p_low": 0.8782
       }
     ]
   },
@@ -91,103 +91,103 @@
     "top2": [
       {
         "number": 4,
-        "p_low": 0.9612,
-        "gap": 21,
-        "gap_bonus": 0.042
+        "p_low": 0.9616,
+        "gap": 22,
+        "gap_bonus": 0.044
       },
       {
         "number": 7,
-        "p_low": 0.9532,
-        "gap": 33,
-        "gap_bonus": 0.066
+        "p_low": 0.9587,
+        "gap": 34,
+        "gap_bonus": 0.068
       }
     ],
     "top4": [
       {
         "number": 4,
-        "p_low": 0.9612,
-        "gap": 21,
-        "gap_bonus": 0.042
+        "p_low": 0.9616,
+        "gap": 22,
+        "gap_bonus": 0.044
       },
       {
         "number": 7,
-        "p_low": 0.9532,
-        "gap": 33,
-        "gap_bonus": 0.066
+        "p_low": 0.9587,
+        "gap": 34,
+        "gap_bonus": 0.068
       },
       {
         "number": 10,
-        "p_low": 0.9266,
-        "gap": 40,
-        "gap_bonus": 0.08
+        "p_low": 0.9429,
+        "gap": 41,
+        "gap_bonus": 0.082
       },
       {
-        "number": 28,
-        "p_low": 0.9243,
-        "gap": 19,
-        "gap_bonus": 0.038
+        "number": 26,
+        "p_low": 0.9275,
+        "gap": 17,
+        "gap_bonus": 0.034
       }
     ],
     "top10": [
       {
         "number": 4,
-        "p_low": 0.9612,
-        "gap": 21,
-        "gap_bonus": 0.042
+        "p_low": 0.9616,
+        "gap": 22,
+        "gap_bonus": 0.044
       },
       {
         "number": 7,
-        "p_low": 0.9532,
-        "gap": 33,
-        "gap_bonus": 0.066
+        "p_low": 0.9587,
+        "gap": 34,
+        "gap_bonus": 0.068
       },
       {
         "number": 10,
-        "p_low": 0.9266,
-        "gap": 40,
-        "gap_bonus": 0.08
+        "p_low": 0.9429,
+        "gap": 41,
+        "gap_bonus": 0.082
       },
       {
-        "number": 28,
-        "p_low": 0.9243,
+        "number": 26,
+        "p_low": 0.9275,
+        "gap": 17,
+        "gap_bonus": 0.034
+      },
+      {
+        "number": 31,
+        "p_low": 0.9239,
         "gap": 19,
         "gap_bonus": 0.038
       },
       {
-        "number": 26,
-        "p_low": 0.9227,
-        "gap": 16,
-        "gap_bonus": 0.032
-      },
-      {
-        "number": 31,
-        "p_low": 0.9142,
-        "gap": 18,
-        "gap_bonus": 0.036
-      },
-      {
         "number": 8,
-        "p_low": 0.911,
+        "p_low": 0.9167,
+        "gap": 12,
+        "gap_bonus": 0.024
+      },
+      {
+        "number": 24,
+        "p_low": 0.9067,
+        "gap": 8,
+        "gap_bonus": 0.016
+      },
+      {
+        "number": 39,
+        "p_low": 0.9059,
         "gap": 11,
         "gap_bonus": 0.022
       },
       {
-        "number": 24,
-        "p_low": 0.9081,
-        "gap": 7,
-        "gap_bonus": 0.014
+        "number": 14,
+        "p_low": 0.9056,
+        "gap": 16,
+        "gap_bonus": 0.032
       },
       {
-        "number": 39,
-        "p_low": 0.8924,
+        "number": 13,
+        "p_low": 0.9005,
         "gap": 10,
         "gap_bonus": 0.02
-      },
-      {
-        "number": 14,
-        "p_low": 0.891,
-        "gap": 15,
-        "gap_bonus": 0.03
       }
     ]
   }
