@@ -465,7 +465,7 @@
         
         function renderWinningNumbers() {
             if (!recentDraws || recentDraws.length === 0) return;
-            const latest = recentDraws[0];
+            const latest = recentDraws[recentDraws.length - 1]; // 最新一期(最后一条)
             let html = `<p style="color:#8888aa;">日期: ${latest.date}</p>`;
             html += `<div style="margin-top:8px;">`;
             latest.winning_numbers.forEach(n => {
