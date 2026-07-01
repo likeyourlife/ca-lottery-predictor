@@ -1,0 +1,51 @@
+name: Daily Prediction Pipeline
+
+on:
+  schedule:
+    # Mon-Sat 9:40 AM Beijing time = 1:40 UTC
+    - cron: '40 1 * * 1-6'
+  workflow_dispatch:  # allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  predict-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install numpy scipy
+
+      - name: Scrape latest data
+        run: python data/fetcher.py
+
+      - name: Run prediction pipeline
+        run: python pipeline/daily_pipeline.py
+
+      - name: Generate frontend data
+        run: python frontend/generate_api_data.py
+
+      - name: Build docs for GitHub Pages
+        run: |
+          mkdir -p docs
+          cp frontend/index.html docs/
+          cp frontend/prediction_engines.js docs/
+          cp frontend/draw_data.json docs/
+          cp frontend/api_data/*.json docs/
+          cp frontend/README.md docs/ 2>/dev/null || true
+
+      - name: Commit and push docs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --staged --quiet || git commit -m "auto: daily prediction update"
+          git push
