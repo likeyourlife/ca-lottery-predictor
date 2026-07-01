@@ -1,0 +1,4457 @@
+[
+  {
+    "draw_date": "2022-01-01",
+    "num1": "2",
+    "num2": "5",
+    "num3": "25",
+    "num4": "26",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-01-03",
+    "num1": "10",
+    "num2": "12",
+    "num3": "15",
+    "num4": "27",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-01-04",
+    "num1": "16",
+    "num2": "17",
+    "num3": "30",
+    "num4": "31",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-01-06",
+    "num1": "5",
+    "num2": "12",
+    "num3": "18",
+    "num4": "22",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-01-09",
+    "num1": "9",
+    "num2": "18",
+    "num3": "27",
+    "num4": "29",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-01-11",
+    "num1": "8",
+    "num2": "13",
+    "num3": "15",
+    "num4": "22",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-01-13",
+    "num1": "13",
+    "num2": "24",
+    "num3": "30",
+    "num4": "33",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-01-16",
+    "num1": "8",
+    "num2": "15",
+    "num3": "26",
+    "num4": "28",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-01-19",
+    "num1": "3",
+    "num2": "12",
+    "num3": "15",
+    "num4": "32",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-01-21",
+    "num1": "10",
+    "num2": "22",
+    "num3": "24",
+    "num4": "29",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-01-22",
+    "num1": "6",
+    "num2": "21",
+    "num3": "27",
+    "num4": "36",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-01-26",
+    "num1": "5",
+    "num2": "8",
+    "num3": "17",
+    "num4": "35",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-01-28",
+    "num1": "6",
+    "num2": "9",
+    "num3": "21",
+    "num4": "33",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-01-29",
+    "num1": "1",
+    "num2": "3",
+    "num3": "4",
+    "num4": "9",
+    "num5": "26",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-01-31",
+    "num1": "2",
+    "num2": "6",
+    "num3": "21",
+    "num4": "25",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-02-02",
+    "num1": "6",
+    "num2": "19",
+    "num3": "21",
+    "num4": "27",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-02-05",
+    "num1": "13",
+    "num2": "20",
+    "num3": "25",
+    "num4": "30",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-02-07",
+    "num1": "13",
+    "num2": "14",
+    "num3": "20",
+    "num4": "35",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-02-10",
+    "num1": "4",
+    "num2": "11",
+    "num3": "27",
+    "num4": "30",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-02-11",
+    "num1": "9",
+    "num2": "11",
+    "num3": "17",
+    "num4": "29",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-02-14",
+    "num1": "14",
+    "num2": "17",
+    "num3": "21",
+    "num4": "25",
+    "num5": "27",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-02-16",
+    "num1": "13",
+    "num2": "23",
+    "num3": "32",
+    "num4": "36",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-02-20",
+    "num1": "9",
+    "num2": "19",
+    "num3": "30",
+    "num4": "31",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-02-22",
+    "num1": "1",
+    "num2": "2",
+    "num3": "7",
+    "num4": "12",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-02-23",
+    "num1": "2",
+    "num2": "8",
+    "num3": "19",
+    "num4": "27",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-02-25",
+    "num1": "2",
+    "num2": "11",
+    "num3": "23",
+    "num4": "35",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-02-26",
+    "num1": "3",
+    "num2": "13",
+    "num3": "19",
+    "num4": "26",
+    "num5": "27",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-02-27",
+    "num1": "5",
+    "num2": "16",
+    "num3": "27",
+    "num4": "33",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-03-03",
+    "num1": "4",
+    "num2": "16",
+    "num3": "21",
+    "num4": "28",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-03-04",
+    "num1": "9",
+    "num2": "18",
+    "num3": "24",
+    "num4": "30",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-03-06",
+    "num1": "4",
+    "num2": "8",
+    "num3": "11",
+    "num4": "19",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-03-09",
+    "num1": "14",
+    "num2": "18",
+    "num3": "19",
+    "num4": "20",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-03-13",
+    "num1": "4",
+    "num2": "7",
+    "num3": "14",
+    "num4": "16",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-03-15",
+    "num1": "6",
+    "num2": "12",
+    "num3": "15",
+    "num4": "23",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-03-17",
+    "num1": "7",
+    "num2": "15",
+    "num3": "19",
+    "num4": "29",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-03-19",
+    "num1": "5",
+    "num2": "15",
+    "num3": "17",
+    "num4": "19",
+    "num5": "23",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-03-22",
+    "num1": "16",
+    "num2": "18",
+    "num3": "30",
+    "num4": "33",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-03-23",
+    "num1": "7",
+    "num2": "13",
+    "num3": "14",
+    "num4": "21",
+    "num5": "26",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-03-25",
+    "num1": "7",
+    "num2": "9",
+    "num3": "23",
+    "num4": "28",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-03-31",
+    "num1": "12",
+    "num2": "17",
+    "num3": "18",
+    "num4": "23",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-01",
+    "num1": "22",
+    "num2": "24",
+    "num3": "26",
+    "num4": "27",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-02",
+    "num1": "7",
+    "num2": "15",
+    "num3": "16",
+    "num4": "18",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-04",
+    "num1": "6",
+    "num2": "10",
+    "num3": "11",
+    "num4": "28",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-05",
+    "num1": "13",
+    "num2": "15",
+    "num3": "17",
+    "num4": "30",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-09",
+    "num1": "6",
+    "num2": "10",
+    "num3": "12",
+    "num4": "14",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-10",
+    "num1": "8",
+    "num2": "10",
+    "num3": "16",
+    "num4": "30",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-12",
+    "num1": "3",
+    "num2": "13",
+    "num3": "20",
+    "num4": "27",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-13",
+    "num1": "4",
+    "num2": "12",
+    "num3": "17",
+    "num4": "18",
+    "num5": "22",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-15",
+    "num1": "2",
+    "num2": "8",
+    "num3": "12",
+    "num4": "19",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-17",
+    "num1": "22",
+    "num2": "26",
+    "num3": "29",
+    "num4": "34",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-20",
+    "num1": "2",
+    "num2": "25",
+    "num3": "34",
+    "num4": "36",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-22",
+    "num1": "1",
+    "num2": "2",
+    "num3": "21",
+    "num4": "22",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-24",
+    "num1": "5",
+    "num2": "6",
+    "num3": "7",
+    "num4": "32",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-25",
+    "num1": "9",
+    "num2": "15",
+    "num3": "22",
+    "num4": "27",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-28",
+    "num1": "20",
+    "num2": "24",
+    "num3": "25",
+    "num4": "37",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-29",
+    "num1": "2",
+    "num2": "9",
+    "num3": "16",
+    "num4": "21",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-04-30",
+    "num1": "3",
+    "num2": "6",
+    "num3": "9",
+    "num4": "36",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-01",
+    "num1": "8",
+    "num2": "14",
+    "num3": "29",
+    "num4": "36",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-02",
+    "num1": "11",
+    "num2": "13",
+    "num3": "29",
+    "num4": "34",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-05",
+    "num1": "2",
+    "num2": "11",
+    "num3": "18",
+    "num4": "21",
+    "num5": "27",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-07",
+    "num1": "13",
+    "num2": "15",
+    "num3": "25",
+    "num4": "26",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-08",
+    "num1": "2",
+    "num2": "3",
+    "num3": "9",
+    "num4": "25",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-11",
+    "num1": "13",
+    "num2": "15",
+    "num3": "19",
+    "num4": "21",
+    "num5": "23",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-13",
+    "num1": "2",
+    "num2": "10",
+    "num3": "13",
+    "num4": "21",
+    "num5": "27",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-15",
+    "num1": "2",
+    "num2": "8",
+    "num3": "9",
+    "num4": "15",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-20",
+    "num1": "13",
+    "num2": "17",
+    "num3": "25",
+    "num4": "34",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-22",
+    "num1": "2",
+    "num2": "13",
+    "num3": "27",
+    "num4": "28",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-23",
+    "num1": "14",
+    "num2": "27",
+    "num3": "33",
+    "num4": "37",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-25",
+    "num1": "15",
+    "num2": "25",
+    "num3": "27",
+    "num4": "30",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-28",
+    "num1": "21",
+    "num2": "33",
+    "num3": "35",
+    "num4": "37",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-29",
+    "num1": "4",
+    "num2": "7",
+    "num3": "10",
+    "num4": "26",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-05-30",
+    "num1": "3",
+    "num2": "5",
+    "num3": "11",
+    "num4": "14",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-02",
+    "num1": "5",
+    "num2": "7",
+    "num3": "17",
+    "num4": "19",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-05",
+    "num1": "5",
+    "num2": "10",
+    "num3": "12",
+    "num4": "26",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-06",
+    "num1": "8",
+    "num2": "20",
+    "num3": "21",
+    "num4": "33",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-09",
+    "num1": "10",
+    "num2": "13",
+    "num3": "15",
+    "num4": "26",
+    "num5": "27",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-11",
+    "num1": "3",
+    "num2": "5",
+    "num3": "29",
+    "num4": "34",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-12",
+    "num1": "6",
+    "num2": "12",
+    "num3": "14",
+    "num4": "20",
+    "num5": "27",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-15",
+    "num1": "2",
+    "num2": "11",
+    "num3": "22",
+    "num4": "26",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-18",
+    "num1": "10",
+    "num2": "19",
+    "num3": "20",
+    "num4": "30",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-19",
+    "num1": "4",
+    "num2": "10",
+    "num3": "26",
+    "num4": "31",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-20",
+    "num1": "9",
+    "num2": "14",
+    "num3": "15",
+    "num4": "17",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-22",
+    "num1": "7",
+    "num2": "15",
+    "num3": "18",
+    "num4": "20",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-24",
+    "num1": "5",
+    "num2": "9",
+    "num3": "27",
+    "num4": "36",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-28",
+    "num1": "5",
+    "num2": "7",
+    "num3": "9",
+    "num4": "12",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-29",
+    "num1": "10",
+    "num2": "16",
+    "num3": "24",
+    "num4": "25",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-06-30",
+    "num1": "5",
+    "num2": "20",
+    "num3": "23",
+    "num4": "32",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-07-03",
+    "num1": "3",
+    "num2": "6",
+    "num3": "7",
+    "num4": "11",
+    "num5": "24",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-07-08",
+    "num1": "1",
+    "num2": "4",
+    "num3": "25",
+    "num4": "26",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-07-10",
+    "num1": "15",
+    "num2": "16",
+    "num3": "17",
+    "num4": "18",
+    "num5": "28",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-07-12",
+    "num1": "11",
+    "num2": "16",
+    "num3": "21",
+    "num4": "30",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-07-14",
+    "num1": "6",
+    "num2": "7",
+    "num3": "9",
+    "num4": "18",
+    "num5": "21",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-07-18",
+    "num1": "2",
+    "num2": "9",
+    "num3": "13",
+    "num4": "29",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-07-20",
+    "num1": "2",
+    "num2": "17",
+    "num3": "19",
+    "num4": "24",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-07-21",
+    "num1": "8",
+    "num2": "10",
+    "num3": "11",
+    "num4": "13",
+    "num5": "25",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-07-22",
+    "num1": "7",
+    "num2": "16",
+    "num3": "27",
+    "num4": "33",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-07-25",
+    "num1": "7",
+    "num2": "12",
+    "num3": "24",
+    "num4": "33",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-07-28",
+    "num1": "5",
+    "num2": "23",
+    "num3": "26",
+    "num4": "34",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-07-29",
+    "num1": "9",
+    "num2": "14",
+    "num3": "16",
+    "num4": "25",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-07-31",
+    "num1": "1",
+    "num2": "3",
+    "num3": "5",
+    "num4": "15",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-02",
+    "num1": "1",
+    "num2": "15",
+    "num3": "17",
+    "num4": "27",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-04",
+    "num1": "2",
+    "num2": "12",
+    "num3": "16",
+    "num4": "19",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-05",
+    "num1": "11",
+    "num2": "13",
+    "num3": "14",
+    "num4": "26",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-07",
+    "num1": "9",
+    "num2": "11",
+    "num3": "13",
+    "num4": "15",
+    "num5": "23",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-08",
+    "num1": "9",
+    "num2": "14",
+    "num3": "27",
+    "num4": "31",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-10",
+    "num1": "3",
+    "num2": "8",
+    "num3": "9",
+    "num4": "35",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-12",
+    "num1": "9",
+    "num2": "23",
+    "num3": "26",
+    "num4": "27",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-14",
+    "num1": "7",
+    "num2": "18",
+    "num3": "29",
+    "num4": "33",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-15",
+    "num1": "1",
+    "num2": "11",
+    "num3": "18",
+    "num4": "25",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-17",
+    "num1": "21",
+    "num2": "22",
+    "num3": "28",
+    "num4": "29",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-20",
+    "num1": "12",
+    "num2": "13",
+    "num3": "16",
+    "num4": "18",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-22",
+    "num1": "9",
+    "num2": "10",
+    "num3": "16",
+    "num4": "22",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-23",
+    "num1": "4",
+    "num2": "11",
+    "num3": "15",
+    "num4": "30",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-24",
+    "num1": "4",
+    "num2": "6",
+    "num3": "15",
+    "num4": "19",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-27",
+    "num1": "8",
+    "num2": "9",
+    "num3": "28",
+    "num4": "34",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-28",
+    "num1": "6",
+    "num2": "12",
+    "num3": "13",
+    "num4": "20",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-29",
+    "num1": "4",
+    "num2": "10",
+    "num3": "15",
+    "num4": "33",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-08-30",
+    "num1": "8",
+    "num2": "13",
+    "num3": "28",
+    "num4": "29",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-09-02",
+    "num1": "14",
+    "num2": "18",
+    "num3": "26",
+    "num4": "31",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-09-04",
+    "num1": "13",
+    "num2": "21",
+    "num3": "24",
+    "num4": "27",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-09-07",
+    "num1": "12",
+    "num2": "17",
+    "num3": "25",
+    "num4": "29",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-09-10",
+    "num1": "7",
+    "num2": "16",
+    "num3": "20",
+    "num4": "24",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-09-12",
+    "num1": "5",
+    "num2": "6",
+    "num3": "18",
+    "num4": "27",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-09-16",
+    "num1": "19",
+    "num2": "27",
+    "num3": "33",
+    "num4": "35",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-09-17",
+    "num1": "4",
+    "num2": "14",
+    "num3": "15",
+    "num4": "34",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-09-19",
+    "num1": "2",
+    "num2": "3",
+    "num3": "17",
+    "num4": "24",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-09-22",
+    "num1": "1",
+    "num2": "23",
+    "num3": "29",
+    "num4": "30",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-09-23",
+    "num1": "1",
+    "num2": "2",
+    "num3": "4",
+    "num4": "10",
+    "num5": "13",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-09-24",
+    "num1": "5",
+    "num2": "8",
+    "num3": "15",
+    "num4": "28",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-09-28",
+    "num1": "18",
+    "num2": "26",
+    "num3": "31",
+    "num4": "32",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-09-30",
+    "num1": "1",
+    "num2": "9",
+    "num3": "19",
+    "num4": "33",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-10-04",
+    "num1": "11",
+    "num2": "16",
+    "num3": "23",
+    "num4": "31",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-10-06",
+    "num1": "1",
+    "num2": "7",
+    "num3": "16",
+    "num4": "31",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-10-08",
+    "num1": "5",
+    "num2": "9",
+    "num3": "11",
+    "num4": "21",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-10-13",
+    "num1": "19",
+    "num2": "23",
+    "num3": "28",
+    "num4": "35",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-10-14",
+    "num1": "3",
+    "num2": "6",
+    "num3": "18",
+    "num4": "31",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-10-16",
+    "num1": "2",
+    "num2": "12",
+    "num3": "18",
+    "num4": "21",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-10-23",
+    "num1": "1",
+    "num2": "5",
+    "num3": "10",
+    "num4": "19",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-10-27",
+    "num1": "4",
+    "num2": "14",
+    "num3": "21",
+    "num4": "26",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-10-28",
+    "num1": "1",
+    "num2": "3",
+    "num3": "27",
+    "num4": "29",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-10-30",
+    "num1": "4",
+    "num2": "12",
+    "num3": "21",
+    "num4": "33",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-10-31",
+    "num1": "1",
+    "num2": "9",
+    "num3": "18",
+    "num4": "24",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-11-03",
+    "num1": "1",
+    "num2": "9",
+    "num3": "20",
+    "num4": "29",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-11-06",
+    "num1": "3",
+    "num2": "6",
+    "num3": "7",
+    "num4": "22",
+    "num5": "24",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-11-07",
+    "num1": "1",
+    "num2": "8",
+    "num3": "15",
+    "num4": "22",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-11-10",
+    "num1": "1",
+    "num2": "20",
+    "num3": "23",
+    "num4": "34",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-11-11",
+    "num1": "8",
+    "num2": "10",
+    "num3": "14",
+    "num4": "23",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-11-12",
+    "num1": "6",
+    "num2": "13",
+    "num3": "21",
+    "num4": "30",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-11-13",
+    "num1": "16",
+    "num2": "17",
+    "num3": "23",
+    "num4": "27",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-11-15",
+    "num1": "5",
+    "num2": "8",
+    "num3": "16",
+    "num4": "25",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-11-18",
+    "num1": "17",
+    "num2": "23",
+    "num3": "26",
+    "num4": "29",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-11-20",
+    "num1": "4",
+    "num2": "19",
+    "num3": "32",
+    "num4": "36",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-11-23",
+    "num1": "18",
+    "num2": "20",
+    "num3": "29",
+    "num4": "31",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-11-24",
+    "num1": "14",
+    "num2": "21",
+    "num3": "25",
+    "num4": "29",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-11-30",
+    "num1": "8",
+    "num2": "9",
+    "num3": "11",
+    "num4": "12",
+    "num5": "25",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-12-04",
+    "num1": "8",
+    "num2": "9",
+    "num3": "19",
+    "num4": "29",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-12-05",
+    "num1": "2",
+    "num2": "3",
+    "num3": "17",
+    "num4": "35",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-12-07",
+    "num1": "5",
+    "num2": "12",
+    "num3": "17",
+    "num4": "18",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-12-09",
+    "num1": "5",
+    "num2": "6",
+    "num3": "10",
+    "num4": "24",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-12-11",
+    "num1": "3",
+    "num2": "13",
+    "num3": "14",
+    "num4": "15",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-12-13",
+    "num1": "6",
+    "num2": "15",
+    "num3": "21",
+    "num4": "29",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-12-14",
+    "num1": "6",
+    "num2": "21",
+    "num3": "25",
+    "num4": "28",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-12-16",
+    "num1": "5",
+    "num2": "10",
+    "num3": "15",
+    "num4": "29",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-12-18",
+    "num1": "10",
+    "num2": "20",
+    "num3": "27",
+    "num4": "34",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-12-27",
+    "num1": "1",
+    "num2": "11",
+    "num3": "30",
+    "num4": "34",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2022-12-29",
+    "num1": "13",
+    "num2": "17",
+    "num3": "22",
+    "num4": "31",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-04",
+    "num1": "17",
+    "num2": "19",
+    "num3": "26",
+    "num4": "30",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-05",
+    "num1": "13",
+    "num2": "14",
+    "num3": "23",
+    "num4": "25",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-06",
+    "num1": "3",
+    "num2": "19",
+    "num3": "26",
+    "num4": "28",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-09",
+    "num1": "13",
+    "num2": "17",
+    "num3": "21",
+    "num4": "24",
+    "num5": "28",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-10",
+    "num1": "7",
+    "num2": "9",
+    "num3": "16",
+    "num4": "27",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-12",
+    "num1": "12",
+    "num2": "16",
+    "num3": "32",
+    "num4": "38",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-13",
+    "num1": "9",
+    "num2": "23",
+    "num3": "24",
+    "num4": "30",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-17",
+    "num1": "11",
+    "num2": "12",
+    "num3": "14",
+    "num4": "21",
+    "num5": "26",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-19",
+    "num1": "6",
+    "num2": "18",
+    "num3": "28",
+    "num4": "32",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-21",
+    "num1": "2",
+    "num2": "16",
+    "num3": "22",
+    "num4": "30",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-23",
+    "num1": "1",
+    "num2": "14",
+    "num3": "21",
+    "num4": "32",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-25",
+    "num1": "12",
+    "num2": "15",
+    "num3": "17",
+    "num4": "26",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-26",
+    "num1": "1",
+    "num2": "26",
+    "num3": "27",
+    "num4": "30",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-29",
+    "num1": "13",
+    "num2": "19",
+    "num3": "33",
+    "num4": "36",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-01-30",
+    "num1": "2",
+    "num2": "13",
+    "num3": "25",
+    "num4": "32",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-01",
+    "num1": "11",
+    "num2": "16",
+    "num3": "25",
+    "num4": "30",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-03",
+    "num1": "21",
+    "num2": "22",
+    "num3": "33",
+    "num4": "36",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-04",
+    "num1": "9",
+    "num2": "22",
+    "num3": "27",
+    "num4": "30",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-06",
+    "num1": "6",
+    "num2": "10",
+    "num3": "16",
+    "num4": "25",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-07",
+    "num1": "2",
+    "num2": "22",
+    "num3": "29",
+    "num4": "30",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-09",
+    "num1": "9",
+    "num2": "18",
+    "num3": "30",
+    "num4": "35",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-10",
+    "num1": "7",
+    "num2": "8",
+    "num3": "23",
+    "num4": "31",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-12",
+    "num1": "2",
+    "num2": "11",
+    "num3": "12",
+    "num4": "15",
+    "num5": "22",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-15",
+    "num1": "25",
+    "num2": "28",
+    "num3": "30",
+    "num4": "37",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-16",
+    "num1": "5",
+    "num2": "14",
+    "num3": "25",
+    "num4": "32",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-18",
+    "num1": "2",
+    "num2": "5",
+    "num3": "11",
+    "num4": "20",
+    "num5": "23",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-22",
+    "num1": "8",
+    "num2": "11",
+    "num3": "33",
+    "num4": "34",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-23",
+    "num1": "6",
+    "num2": "7",
+    "num3": "8",
+    "num4": "34",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-24",
+    "num1": "2",
+    "num2": "10",
+    "num3": "11",
+    "num4": "29",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-02-27",
+    "num1": "13",
+    "num2": "18",
+    "num3": "22",
+    "num4": "25",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-03-02",
+    "num1": "5",
+    "num2": "16",
+    "num3": "31",
+    "num4": "32",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-03-03",
+    "num1": "2",
+    "num2": "5",
+    "num3": "16",
+    "num4": "32",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-03-08",
+    "num1": "4",
+    "num2": "6",
+    "num3": "19",
+    "num4": "30",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-03-10",
+    "num1": "1",
+    "num2": "2",
+    "num3": "14",
+    "num4": "28",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-03-11",
+    "num1": "1",
+    "num2": "21",
+    "num3": "22",
+    "num4": "37",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-03-14",
+    "num1": "4",
+    "num2": "6",
+    "num3": "17",
+    "num4": "30",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-03-19",
+    "num1": "15",
+    "num2": "26",
+    "num3": "34",
+    "num4": "37",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-03-22",
+    "num1": "4",
+    "num2": "8",
+    "num3": "27",
+    "num4": "28",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-03-23",
+    "num1": "1",
+    "num2": "15",
+    "num3": "16",
+    "num4": "20",
+    "num5": "26",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-03-25",
+    "num1": "5",
+    "num2": "12",
+    "num3": "20",
+    "num4": "24",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-03-26",
+    "num1": "2",
+    "num2": "10",
+    "num3": "27",
+    "num4": "32",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-03-31",
+    "num1": "2",
+    "num2": "10",
+    "num3": "15",
+    "num4": "30",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-04-03",
+    "num1": "1",
+    "num2": "4",
+    "num3": "14",
+    "num4": "23",
+    "num5": "27",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-04-05",
+    "num1": "7",
+    "num2": "8",
+    "num3": "16",
+    "num4": "27",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-04-06",
+    "num1": "5",
+    "num2": "8",
+    "num3": "11",
+    "num4": "20",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-04-08",
+    "num1": "15",
+    "num2": "24",
+    "num3": "26",
+    "num4": "27",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-04-11",
+    "num1": "9",
+    "num2": "13",
+    "num3": "19",
+    "num4": "29",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-04-14",
+    "num1": "3",
+    "num2": "13",
+    "num3": "19",
+    "num4": "32",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-04-15",
+    "num1": "15",
+    "num2": "21",
+    "num3": "24",
+    "num4": "28",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-04-16",
+    "num1": "7",
+    "num2": "10",
+    "num3": "14",
+    "num4": "15",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-04-19",
+    "num1": "7",
+    "num2": "12",
+    "num3": "27",
+    "num4": "31",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-04-21",
+    "num1": "7",
+    "num2": "12",
+    "num3": "25",
+    "num4": "30",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-04-23",
+    "num1": "7",
+    "num2": "11",
+    "num3": "13",
+    "num4": "14",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-04-25",
+    "num1": "5",
+    "num2": "11",
+    "num3": "15",
+    "num4": "32",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-04-26",
+    "num1": "13",
+    "num2": "15",
+    "num3": "22",
+    "num4": "26",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-04-29",
+    "num1": "14",
+    "num2": "17",
+    "num3": "23",
+    "num4": "33",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-01",
+    "num1": "3",
+    "num2": "4",
+    "num3": "11",
+    "num4": "16",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-03",
+    "num1": "5",
+    "num2": "13",
+    "num3": "35",
+    "num4": "37",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-05",
+    "num1": "5",
+    "num2": "11",
+    "num3": "19",
+    "num4": "28",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-07",
+    "num1": "8",
+    "num2": "16",
+    "num3": "20",
+    "num4": "23",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-08",
+    "num1": "10",
+    "num2": "11",
+    "num3": "21",
+    "num4": "29",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-09",
+    "num1": "9",
+    "num2": "15",
+    "num3": "25",
+    "num4": "29",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-16",
+    "num1": "3",
+    "num2": "11",
+    "num3": "18",
+    "num4": "23",
+    "num5": "24",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-17",
+    "num1": "6",
+    "num2": "15",
+    "num3": "17",
+    "num4": "23",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-18",
+    "num1": "6",
+    "num2": "22",
+    "num3": "31",
+    "num4": "32",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-21",
+    "num1": "3",
+    "num2": "23",
+    "num3": "28",
+    "num4": "29",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-24",
+    "num1": "5",
+    "num2": "10",
+    "num3": "23",
+    "num4": "35",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-26",
+    "num1": "7",
+    "num2": "11",
+    "num3": "28",
+    "num4": "31",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-27",
+    "num1": "10",
+    "num2": "12",
+    "num3": "18",
+    "num4": "29",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-29",
+    "num1": "8",
+    "num2": "10",
+    "num3": "12",
+    "num4": "30",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-30",
+    "num1": "8",
+    "num2": "13",
+    "num3": "24",
+    "num4": "36",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-05-31",
+    "num1": "2",
+    "num2": "8",
+    "num3": "21",
+    "num4": "25",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-02",
+    "num1": "3",
+    "num2": "13",
+    "num3": "21",
+    "num4": "31",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-04",
+    "num1": "1",
+    "num2": "11",
+    "num3": "17",
+    "num4": "19",
+    "num5": "23",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-05",
+    "num1": "10",
+    "num2": "14",
+    "num3": "18",
+    "num4": "38",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-07",
+    "num1": "12",
+    "num2": "16",
+    "num3": "21",
+    "num4": "23",
+    "num5": "28",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-09",
+    "num1": "5",
+    "num2": "29",
+    "num3": "34",
+    "num4": "35",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-11",
+    "num1": "5",
+    "num2": "7",
+    "num3": "12",
+    "num4": "24",
+    "num5": "27",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-12",
+    "num1": "9",
+    "num2": "12",
+    "num3": "26",
+    "num4": "32",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-14",
+    "num1": "6",
+    "num2": "22",
+    "num3": "29",
+    "num4": "31",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-19",
+    "num1": "16",
+    "num2": "25",
+    "num3": "30",
+    "num4": "31",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-20",
+    "num1": "18",
+    "num2": "23",
+    "num3": "27",
+    "num4": "34",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-22",
+    "num1": "11",
+    "num2": "14",
+    "num3": "18",
+    "num4": "30",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-25",
+    "num1": "9",
+    "num2": "13",
+    "num3": "33",
+    "num4": "34",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-26",
+    "num1": "1",
+    "num2": "19",
+    "num3": "25",
+    "num4": "26",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-28",
+    "num1": "9",
+    "num2": "10",
+    "num3": "21",
+    "num4": "22",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-06-30",
+    "num1": "1",
+    "num2": "7",
+    "num3": "19",
+    "num4": "33",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-07-04",
+    "num1": "6",
+    "num2": "17",
+    "num3": "31",
+    "num4": "33",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-07-05",
+    "num1": "21",
+    "num2": "33",
+    "num3": "34",
+    "num4": "35",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-07-09",
+    "num1": "9",
+    "num2": "17",
+    "num3": "20",
+    "num4": "34",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-07-10",
+    "num1": "3",
+    "num2": "8",
+    "num3": "16",
+    "num4": "21",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-07-14",
+    "num1": "2",
+    "num2": "10",
+    "num3": "12",
+    "num4": "17",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-07-18",
+    "num1": "15",
+    "num2": "22",
+    "num3": "24",
+    "num4": "34",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-07-19",
+    "num1": "6",
+    "num2": "11",
+    "num3": "12",
+    "num4": "18",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-07-23",
+    "num1": "5",
+    "num2": "8",
+    "num3": "20",
+    "num4": "23",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-07-24",
+    "num1": "9",
+    "num2": "10",
+    "num3": "14",
+    "num4": "17",
+    "num5": "19",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-07-26",
+    "num1": "6",
+    "num2": "11",
+    "num3": "24",
+    "num4": "26",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-07-28",
+    "num1": "4",
+    "num2": "10",
+    "num3": "17",
+    "num4": "32",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-07-29",
+    "num1": "8",
+    "num2": "9",
+    "num3": "29",
+    "num4": "32",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-07-31",
+    "num1": "13",
+    "num2": "18",
+    "num3": "26",
+    "num4": "32",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-08-02",
+    "num1": "8",
+    "num2": "21",
+    "num3": "23",
+    "num4": "26",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-08-08",
+    "num1": "7",
+    "num2": "9",
+    "num3": "23",
+    "num4": "24",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-08-11",
+    "num1": "6",
+    "num2": "8",
+    "num3": "19",
+    "num4": "21",
+    "num5": "22",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-08-12",
+    "num1": "1",
+    "num2": "3",
+    "num3": "6",
+    "num4": "7",
+    "num5": "15",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-08-16",
+    "num1": "5",
+    "num2": "10",
+    "num3": "20",
+    "num4": "21",
+    "num5": "22",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-08-17",
+    "num1": "17",
+    "num2": "24",
+    "num3": "26",
+    "num4": "32",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-08-19",
+    "num1": "17",
+    "num2": "18",
+    "num3": "24",
+    "num4": "28",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-08-20",
+    "num1": "3",
+    "num2": "16",
+    "num3": "23",
+    "num4": "25",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-08-22",
+    "num1": "2",
+    "num2": "11",
+    "num3": "26",
+    "num4": "29",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-08-24",
+    "num1": "7",
+    "num2": "8",
+    "num3": "10",
+    "num4": "32",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-08-28",
+    "num1": "3",
+    "num2": "10",
+    "num3": "22",
+    "num4": "23",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-08-30",
+    "num1": "5",
+    "num2": "21",
+    "num3": "22",
+    "num4": "27",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-08-31",
+    "num1": "1",
+    "num2": "18",
+    "num3": "28",
+    "num4": "29",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-01",
+    "num1": "7",
+    "num2": "19",
+    "num3": "21",
+    "num4": "22",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-03",
+    "num1": "2",
+    "num2": "17",
+    "num3": "21",
+    "num4": "32",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-05",
+    "num1": "1",
+    "num2": "8",
+    "num3": "19",
+    "num4": "21",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-06",
+    "num1": "5",
+    "num2": "14",
+    "num3": "19",
+    "num4": "22",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-10",
+    "num1": "2",
+    "num2": "3",
+    "num3": "18",
+    "num4": "23",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-13",
+    "num1": "2",
+    "num2": "17",
+    "num3": "20",
+    "num4": "29",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-14",
+    "num1": "11",
+    "num2": "13",
+    "num3": "14",
+    "num4": "33",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-17",
+    "num1": "8",
+    "num2": "18",
+    "num3": "30",
+    "num4": "37",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-18",
+    "num1": "4",
+    "num2": "6",
+    "num3": "7",
+    "num4": "15",
+    "num5": "17",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-19",
+    "num1": "4",
+    "num2": "7",
+    "num3": "13",
+    "num4": "29",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-22",
+    "num1": "6",
+    "num2": "12",
+    "num3": "16",
+    "num4": "17",
+    "num5": "18",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-23",
+    "num1": "1",
+    "num2": "4",
+    "num3": "18",
+    "num4": "23",
+    "num5": "27",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-28",
+    "num1": "24",
+    "num2": "26",
+    "num3": "30",
+    "num4": "32",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-29",
+    "num1": "8",
+    "num2": "16",
+    "num3": "23",
+    "num4": "30",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-09-30",
+    "num1": "19",
+    "num2": "20",
+    "num3": "26",
+    "num4": "29",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-10-04",
+    "num1": "5",
+    "num2": "9",
+    "num3": "21",
+    "num4": "24",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-10-05",
+    "num1": "5",
+    "num2": "26",
+    "num3": "29",
+    "num4": "36",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-10-07",
+    "num1": "8",
+    "num2": "16",
+    "num3": "17",
+    "num4": "21",
+    "num5": "25",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-10-09",
+    "num1": "23",
+    "num2": "25",
+    "num3": "26",
+    "num4": "30",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-10-16",
+    "num1": "4",
+    "num2": "5",
+    "num3": "27",
+    "num4": "31",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-10-20",
+    "num1": "1",
+    "num2": "7",
+    "num3": "20",
+    "num4": "35",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-10-22",
+    "num1": "21",
+    "num2": "22",
+    "num3": "32",
+    "num4": "34",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-10-23",
+    "num1": "3",
+    "num2": "5",
+    "num3": "25",
+    "num4": "34",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-10-25",
+    "num1": "11",
+    "num2": "12",
+    "num3": "27",
+    "num4": "30",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-10-29",
+    "num1": "22",
+    "num2": "23",
+    "num3": "30",
+    "num4": "31",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-10-31",
+    "num1": "9",
+    "num2": "18",
+    "num3": "20",
+    "num4": "21",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-11-01",
+    "num1": "1",
+    "num2": "25",
+    "num3": "28",
+    "num4": "30",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-11-02",
+    "num1": "6",
+    "num2": "12",
+    "num3": "28",
+    "num4": "31",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-11-03",
+    "num1": "3",
+    "num2": "16",
+    "num3": "21",
+    "num4": "34",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-11-05",
+    "num1": "8",
+    "num2": "20",
+    "num3": "21",
+    "num4": "32",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-11-07",
+    "num1": "12",
+    "num2": "15",
+    "num3": "21",
+    "num4": "27",
+    "num5": "28",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-11-08",
+    "num1": "11",
+    "num2": "17",
+    "num3": "18",
+    "num4": "26",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-11-12",
+    "num1": "7",
+    "num2": "10",
+    "num3": "12",
+    "num4": "21",
+    "num5": "25",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-11-13",
+    "num1": "7",
+    "num2": "16",
+    "num3": "17",
+    "num4": "25",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-11-18",
+    "num1": "1",
+    "num2": "8",
+    "num3": "24",
+    "num4": "30",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-11-21",
+    "num1": "2",
+    "num2": "12",
+    "num3": "14",
+    "num4": "15",
+    "num5": "19",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-11-22",
+    "num1": "13",
+    "num2": "17",
+    "num3": "19",
+    "num4": "33",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-11-25",
+    "num1": "10",
+    "num2": "32",
+    "num3": "33",
+    "num4": "34",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-11-27",
+    "num1": "2",
+    "num2": "9",
+    "num3": "19",
+    "num4": "23",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-11-29",
+    "num1": "2",
+    "num2": "27",
+    "num3": "32",
+    "num4": "35",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-01",
+    "num1": "6",
+    "num2": "20",
+    "num3": "31",
+    "num4": "32",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-02",
+    "num1": "9",
+    "num2": "11",
+    "num3": "20",
+    "num4": "21",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-04",
+    "num1": "12",
+    "num2": "17",
+    "num3": "19",
+    "num4": "32",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-05",
+    "num1": "10",
+    "num2": "13",
+    "num3": "16",
+    "num4": "27",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-09",
+    "num1": "11",
+    "num2": "14",
+    "num3": "20",
+    "num4": "29",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-12",
+    "num1": "1",
+    "num2": "8",
+    "num3": "17",
+    "num4": "20",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-13",
+    "num1": "8",
+    "num2": "12",
+    "num3": "18",
+    "num4": "32",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-14",
+    "num1": "1",
+    "num2": "7",
+    "num3": "23",
+    "num4": "28",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-18",
+    "num1": "14",
+    "num2": "20",
+    "num3": "23",
+    "num4": "31",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-19",
+    "num1": "16",
+    "num2": "22",
+    "num3": "27",
+    "num4": "30",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-20",
+    "num1": "15",
+    "num2": "18",
+    "num3": "21",
+    "num4": "27",
+    "num5": "28",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-23",
+    "num1": "9",
+    "num2": "17",
+    "num3": "22",
+    "num4": "31",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-26",
+    "num1": "3",
+    "num2": "19",
+    "num3": "35",
+    "num4": "36",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-27",
+    "num1": "2",
+    "num2": "5",
+    "num3": "22",
+    "num4": "24",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2023-12-31",
+    "num1": "6",
+    "num2": "10",
+    "num3": "12",
+    "num4": "22",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-01-02",
+    "num1": "3",
+    "num2": "6",
+    "num3": "7",
+    "num4": "19",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-01-05",
+    "num1": "5",
+    "num2": "25",
+    "num3": "34",
+    "num4": "36",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-01-09",
+    "num1": "6",
+    "num2": "20",
+    "num3": "22",
+    "num4": "30",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-01-11",
+    "num1": "6",
+    "num2": "9",
+    "num3": "19",
+    "num4": "32",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-01-12",
+    "num1": "3",
+    "num2": "13",
+    "num3": "19",
+    "num4": "21",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-01-14",
+    "num1": "6",
+    "num2": "8",
+    "num3": "21",
+    "num4": "23",
+    "num5": "26",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-01-17",
+    "num1": "20",
+    "num2": "25",
+    "num3": "29",
+    "num4": "35",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-01-20",
+    "num1": "4",
+    "num2": "5",
+    "num3": "24",
+    "num4": "31",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-01-24",
+    "num1": "1",
+    "num2": "4",
+    "num3": "6",
+    "num4": "21",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-01-26",
+    "num1": "15",
+    "num2": "18",
+    "num3": "21",
+    "num4": "30",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-01-29",
+    "num1": "5",
+    "num2": "19",
+    "num3": "29",
+    "num4": "31",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-01-31",
+    "num1": "6",
+    "num2": "10",
+    "num3": "12",
+    "num4": "16",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-02-02",
+    "num1": "16",
+    "num2": "18",
+    "num3": "36",
+    "num4": "38",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-02-03",
+    "num1": "2",
+    "num2": "12",
+    "num3": "17",
+    "num4": "21",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-02-09",
+    "num1": "3",
+    "num2": "7",
+    "num3": "32",
+    "num4": "33",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-02-11",
+    "num1": "18",
+    "num2": "22",
+    "num3": "25",
+    "num4": "33",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-02-13",
+    "num1": "1",
+    "num2": "10",
+    "num3": "26",
+    "num4": "30",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-02-14",
+    "num1": "5",
+    "num2": "16",
+    "num3": "20",
+    "num4": "26",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-02-16",
+    "num1": "4",
+    "num2": "25",
+    "num3": "28",
+    "num4": "31",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-02-19",
+    "num1": "5",
+    "num2": "7",
+    "num3": "24",
+    "num4": "28",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-02-21",
+    "num1": "14",
+    "num2": "22",
+    "num3": "25",
+    "num4": "31",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-02-23",
+    "num1": "2",
+    "num2": "9",
+    "num3": "20",
+    "num4": "22",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-02-25",
+    "num1": "7",
+    "num2": "11",
+    "num3": "12",
+    "num4": "21",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-02-26",
+    "num1": "3",
+    "num2": "12",
+    "num3": "13",
+    "num4": "22",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-02-28",
+    "num1": "10",
+    "num2": "11",
+    "num3": "19",
+    "num4": "28",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-01",
+    "num1": "3",
+    "num2": "25",
+    "num3": "28",
+    "num4": "33",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-03",
+    "num1": "6",
+    "num2": "9",
+    "num3": "28",
+    "num4": "31",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-04",
+    "num1": "14",
+    "num2": "18",
+    "num3": "20",
+    "num4": "22",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-07",
+    "num1": "9",
+    "num2": "11",
+    "num3": "18",
+    "num4": "30",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-12",
+    "num1": "3",
+    "num2": "9",
+    "num3": "35",
+    "num4": "37",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-15",
+    "num1": "5",
+    "num2": "6",
+    "num3": "8",
+    "num4": "30",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-16",
+    "num1": "9",
+    "num2": "10",
+    "num3": "15",
+    "num4": "19",
+    "num5": "24",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-17",
+    "num1": "3",
+    "num2": "13",
+    "num3": "19",
+    "num4": "24",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-19",
+    "num1": "17",
+    "num2": "29",
+    "num3": "30",
+    "num4": "35",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-21",
+    "num1": "9",
+    "num2": "13",
+    "num3": "14",
+    "num4": "18",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-24",
+    "num1": "1",
+    "num2": "3",
+    "num3": "12",
+    "num4": "14",
+    "num5": "18",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-26",
+    "num1": "7",
+    "num2": "19",
+    "num3": "27",
+    "num4": "31",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-27",
+    "num1": "12",
+    "num2": "27",
+    "num3": "30",
+    "num4": "35",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-28",
+    "num1": "1",
+    "num2": "3",
+    "num3": "16",
+    "num4": "17",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-30",
+    "num1": "1",
+    "num2": "10",
+    "num3": "16",
+    "num4": "28",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-03-31",
+    "num1": "18",
+    "num2": "26",
+    "num3": "32",
+    "num4": "36",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-04-01",
+    "num1": "2",
+    "num2": "4",
+    "num3": "10",
+    "num4": "23",
+    "num5": "26",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-04-03",
+    "num1": "9",
+    "num2": "10",
+    "num3": "14",
+    "num4": "27",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-04-06",
+    "num1": "2",
+    "num2": "10",
+    "num3": "13",
+    "num4": "32",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-04-09",
+    "num1": "4",
+    "num2": "17",
+    "num3": "24",
+    "num4": "36",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-04-10",
+    "num1": "14",
+    "num2": "16",
+    "num3": "20",
+    "num4": "28",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-04-11",
+    "num1": "2",
+    "num2": "15",
+    "num3": "25",
+    "num4": "37",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-04-13",
+    "num1": "15",
+    "num2": "26",
+    "num3": "29",
+    "num4": "35",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-04-14",
+    "num1": "1",
+    "num2": "17",
+    "num3": "25",
+    "num4": "27",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-04-16",
+    "num1": "11",
+    "num2": "13",
+    "num3": "30",
+    "num4": "33",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-04-18",
+    "num1": "7",
+    "num2": "21",
+    "num3": "27",
+    "num4": "29",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-04-20",
+    "num1": "9",
+    "num2": "12",
+    "num3": "13",
+    "num4": "29",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-04-21",
+    "num1": "2",
+    "num2": "20",
+    "num3": "26",
+    "num4": "33",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-04-22",
+    "num1": "16",
+    "num2": "17",
+    "num3": "26",
+    "num4": "28",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-04-28",
+    "num1": "9",
+    "num2": "22",
+    "num3": "28",
+    "num4": "32",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-05-03",
+    "num1": "9",
+    "num2": "16",
+    "num3": "25",
+    "num4": "27",
+    "num5": "28",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-05-04",
+    "num1": "6",
+    "num2": "9",
+    "num3": "32",
+    "num4": "33",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-05-06",
+    "num1": "10",
+    "num2": "12",
+    "num3": "34",
+    "num4": "36",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-05-07",
+    "num1": "4",
+    "num2": "12",
+    "num3": "13",
+    "num4": "14",
+    "num5": "28",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-05-09",
+    "num1": "12",
+    "num2": "17",
+    "num3": "22",
+    "num4": "29",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-05-10",
+    "num1": "3",
+    "num2": "4",
+    "num3": "9",
+    "num4": "17",
+    "num5": "26",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-05-12",
+    "num1": "1",
+    "num2": "2",
+    "num3": "18",
+    "num4": "36",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-05-15",
+    "num1": "1",
+    "num2": "7",
+    "num3": "10",
+    "num4": "20",
+    "num5": "26",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-05-16",
+    "num1": "2",
+    "num2": "17",
+    "num3": "24",
+    "num4": "35",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-05-17",
+    "num1": "1",
+    "num2": "7",
+    "num3": "33",
+    "num4": "36",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-05-20",
+    "num1": "3",
+    "num2": "9",
+    "num3": "21",
+    "num4": "29",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-05-22",
+    "num1": "3",
+    "num2": "17",
+    "num3": "23",
+    "num4": "24",
+    "num5": "27",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-05-25",
+    "num1": "2",
+    "num2": "5",
+    "num3": "7",
+    "num4": "16",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-05-27",
+    "num1": "13",
+    "num2": "20",
+    "num3": "25",
+    "num4": "34",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-03",
+    "num1": "5",
+    "num2": "23",
+    "num3": "29",
+    "num4": "32",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-04",
+    "num1": "2",
+    "num2": "3",
+    "num3": "9",
+    "num4": "15",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-05",
+    "num1": "2",
+    "num2": "8",
+    "num3": "12",
+    "num4": "27",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-07",
+    "num1": "10",
+    "num2": "16",
+    "num3": "18",
+    "num4": "27",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-08",
+    "num1": "6",
+    "num2": "17",
+    "num3": "18",
+    "num4": "29",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-10",
+    "num1": "5",
+    "num2": "10",
+    "num3": "12",
+    "num4": "20",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-11",
+    "num1": "21",
+    "num2": "27",
+    "num3": "34",
+    "num4": "36",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-13",
+    "num1": "5",
+    "num2": "15",
+    "num3": "17",
+    "num4": "28",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-15",
+    "num1": "1",
+    "num2": "3",
+    "num3": "5",
+    "num4": "12",
+    "num5": "20",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-16",
+    "num1": "2",
+    "num2": "8",
+    "num3": "18",
+    "num4": "34",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-18",
+    "num1": "10",
+    "num2": "14",
+    "num3": "18",
+    "num4": "31",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-21",
+    "num1": "5",
+    "num2": "13",
+    "num3": "19",
+    "num4": "20",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-24",
+    "num1": "2",
+    "num2": "11",
+    "num3": "16",
+    "num4": "23",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-26",
+    "num1": "8",
+    "num2": "22",
+    "num3": "23",
+    "num4": "28",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-28",
+    "num1": "14",
+    "num2": "22",
+    "num3": "27",
+    "num4": "37",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-06-30",
+    "num1": "4",
+    "num2": "18",
+    "num3": "22",
+    "num4": "34",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-07-02",
+    "num1": "9",
+    "num2": "15",
+    "num3": "32",
+    "num4": "35",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-07-05",
+    "num1": "15",
+    "num2": "17",
+    "num3": "22",
+    "num4": "24",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-07-06",
+    "num1": "10",
+    "num2": "12",
+    "num3": "16",
+    "num4": "24",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-07-08",
+    "num1": "11",
+    "num2": "24",
+    "num3": "29",
+    "num4": "34",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-07-14",
+    "num1": "5",
+    "num2": "10",
+    "num3": "17",
+    "num4": "24",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-07-15",
+    "num1": "2",
+    "num2": "9",
+    "num3": "13",
+    "num4": "21",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-07-17",
+    "num1": "6",
+    "num2": "8",
+    "num3": "11",
+    "num4": "35",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-07-20",
+    "num1": "1",
+    "num2": "4",
+    "num3": "11",
+    "num4": "23",
+    "num5": "27",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-07-22",
+    "num1": "10",
+    "num2": "11",
+    "num3": "13",
+    "num4": "21",
+    "num5": "29",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-07-24",
+    "num1": "2",
+    "num2": "4",
+    "num3": "11",
+    "num4": "15",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-07-26",
+    "num1": "13",
+    "num2": "19",
+    "num3": "30",
+    "num4": "35",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-07-28",
+    "num1": "3",
+    "num2": "17",
+    "num3": "18",
+    "num4": "25",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-07-31",
+    "num1": "3",
+    "num2": "12",
+    "num3": "16",
+    "num4": "18",
+    "num5": "19",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-08-04",
+    "num1": "4",
+    "num2": "8",
+    "num3": "10",
+    "num4": "17",
+    "num5": "21",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-08-06",
+    "num1": "10",
+    "num2": "12",
+    "num3": "24",
+    "num4": "26",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-08-07",
+    "num1": "7",
+    "num2": "9",
+    "num3": "21",
+    "num4": "27",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-08-10",
+    "num1": "2",
+    "num2": "6",
+    "num3": "19",
+    "num4": "30",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-08-16",
+    "num1": "1",
+    "num2": "2",
+    "num3": "9",
+    "num4": "11",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-08-19",
+    "num1": "14",
+    "num2": "22",
+    "num3": "26",
+    "num4": "29",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-08-20",
+    "num1": "6",
+    "num2": "20",
+    "num3": "33",
+    "num4": "34",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-08-22",
+    "num1": "19",
+    "num2": "21",
+    "num3": "26",
+    "num4": "34",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-08-24",
+    "num1": "5",
+    "num2": "14",
+    "num3": "20",
+    "num4": "37",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-08-25",
+    "num1": "15",
+    "num2": "22",
+    "num3": "25",
+    "num4": "38",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-08-27",
+    "num1": "4",
+    "num2": "15",
+    "num3": "17",
+    "num4": "18",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-08-29",
+    "num1": "2",
+    "num2": "17",
+    "num3": "22",
+    "num4": "25",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-09-02",
+    "num1": "2",
+    "num2": "7",
+    "num3": "18",
+    "num4": "19",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-09-04",
+    "num1": "11",
+    "num2": "15",
+    "num3": "18",
+    "num4": "36",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-09-05",
+    "num1": "15",
+    "num2": "17",
+    "num3": "20",
+    "num4": "33",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-09-08",
+    "num1": "2",
+    "num2": "16",
+    "num3": "29",
+    "num4": "34",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-09-11",
+    "num1": "11",
+    "num2": "15",
+    "num3": "22",
+    "num4": "23",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-09-12",
+    "num1": "6",
+    "num2": "21",
+    "num3": "23",
+    "num4": "28",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-09-13",
+    "num1": "1",
+    "num2": "9",
+    "num3": "25",
+    "num4": "26",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-09-17",
+    "num1": "2",
+    "num2": "7",
+    "num3": "12",
+    "num4": "30",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-09-18",
+    "num1": "3",
+    "num2": "8",
+    "num3": "27",
+    "num4": "29",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-09-24",
+    "num1": "11",
+    "num2": "25",
+    "num3": "26",
+    "num4": "33",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-09-25",
+    "num1": "7",
+    "num2": "18",
+    "num3": "25",
+    "num4": "28",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-09-28",
+    "num1": "6",
+    "num2": "9",
+    "num3": "16",
+    "num4": "17",
+    "num5": "25",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-09-29",
+    "num1": "3",
+    "num2": "13",
+    "num3": "23",
+    "num4": "25",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-10-02",
+    "num1": "7",
+    "num2": "11",
+    "num3": "14",
+    "num4": "34",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-10-03",
+    "num1": "4",
+    "num2": "9",
+    "num3": "10",
+    "num4": "14",
+    "num5": "15",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-10-05",
+    "num1": "12",
+    "num2": "20",
+    "num3": "25",
+    "num4": "28",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-10-06",
+    "num1": "5",
+    "num2": "7",
+    "num3": "10",
+    "num4": "16",
+    "num5": "28",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-10-10",
+    "num1": "26",
+    "num2": "30",
+    "num3": "37",
+    "num4": "38",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-10-11",
+    "num1": "8",
+    "num2": "9",
+    "num3": "24",
+    "num4": "31",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-10-17",
+    "num1": "19",
+    "num2": "21",
+    "num3": "33",
+    "num4": "35",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-10-18",
+    "num1": "1",
+    "num2": "8",
+    "num3": "10",
+    "num4": "17",
+    "num5": "23",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-10-23",
+    "num1": "4",
+    "num2": "14",
+    "num3": "30",
+    "num4": "33",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-10-28",
+    "num1": "10",
+    "num2": "13",
+    "num3": "33",
+    "num4": "38",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-10-30",
+    "num1": "1",
+    "num2": "13",
+    "num3": "19",
+    "num4": "23",
+    "num5": "28",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-10-31",
+    "num1": "7",
+    "num2": "8",
+    "num3": "26",
+    "num4": "27",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-11-02",
+    "num1": "1",
+    "num2": "10",
+    "num3": "11",
+    "num4": "14",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-11-05",
+    "num1": "16",
+    "num2": "17",
+    "num3": "23",
+    "num4": "30",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-11-07",
+    "num1": "5",
+    "num2": "12",
+    "num3": "14",
+    "num4": "32",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-11-09",
+    "num1": "14",
+    "num2": "16",
+    "num3": "23",
+    "num4": "27",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-11-10",
+    "num1": "5",
+    "num2": "14",
+    "num3": "17",
+    "num4": "21",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-11-12",
+    "num1": "2",
+    "num2": "11",
+    "num3": "24",
+    "num4": "25",
+    "num5": "39",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-11-17",
+    "num1": "4",
+    "num2": "7",
+    "num3": "18",
+    "num4": "29",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-11-18",
+    "num1": "9",
+    "num2": "13",
+    "num3": "14",
+    "num4": "19",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-11-21",
+    "num1": "10",
+    "num2": "11",
+    "num3": "17",
+    "num4": "28",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-11-23",
+    "num1": "3",
+    "num2": "16",
+    "num3": "21",
+    "num4": "35",
+    "num5": "38",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-11-25",
+    "num1": "3",
+    "num2": "5",
+    "num3": "7",
+    "num4": "18",
+    "num5": "24",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-11-27",
+    "num1": "10",
+    "num2": "24",
+    "num3": "28",
+    "num4": "31",
+    "num5": "37",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-11-28",
+    "num1": "13",
+    "num2": "14",
+    "num3": "21",
+    "num4": "23",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-11-30",
+    "num1": "2",
+    "num2": "5",
+    "num3": "8",
+    "num4": "24",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-12-02",
+    "num1": "6",
+    "num2": "16",
+    "num3": "18",
+    "num4": "20",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-12-04",
+    "num1": "16",
+    "num2": "21",
+    "num3": "30",
+    "num4": "33",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-12-06",
+    "num1": "9",
+    "num2": "11",
+    "num3": "12",
+    "num4": "13",
+    "num5": "34",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-12-09",
+    "num1": "10",
+    "num2": "15",
+    "num3": "16",
+    "num4": "20",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-12-11",
+    "num1": "7",
+    "num2": "13",
+    "num3": "23",
+    "num4": "26",
+    "num5": "30",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-12-13",
+    "num1": "2",
+    "num2": "3",
+    "num3": "22",
+    "num4": "24",
+    "num5": "32",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-12-17",
+    "num1": "13",
+    "num2": "25",
+    "num3": "28",
+    "num4": "31",
+    "num5": "33",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-12-18",
+    "num1": "2",
+    "num2": "6",
+    "num3": "11",
+    "num4": "18",
+    "num5": "31",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-12-19",
+    "num1": "14",
+    "num2": "16",
+    "num3": "22",
+    "num4": "35",
+    "num5": "36",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-12-26",
+    "num1": "2",
+    "num2": "6",
+    "num3": "7",
+    "num4": "8",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-12-28",
+    "num1": "1",
+    "num2": "21",
+    "num3": "22",
+    "num4": "33",
+    "num5": "35",
+    "jackpot_amount": "0"
+  },
+  {
+    "draw_date": "2025-12-29",
+    "num1": "1",
+    "num2": "8",
+    "num3": "13",
+    "num4": "17",
+    "num5": "20",
+    "jackpot_amount": "0"
+  }
+]

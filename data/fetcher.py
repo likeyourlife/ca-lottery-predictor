@@ -180,7 +180,7 @@ def fetch_fantasy5_from_text(raw_text: str) -> List[Dict]:
 
 
 def init_fantasy5_data(force_reload: bool = False):
-    """初始化Fantasy 5基础数据(从内置种子数据 + 补充数据)"""
+    """初始化Fantasy 5基础数据(从内置种子数据 + 补充数据 + Puppeteer抓取数据)"""
     fetcher = DataFetcher("fantasy5")
     if fetcher.total_draws() > 0 and not force_reload:
         print(f"ℹ️ 已有 {fetcher.total_draws()} 条历史数据")
@@ -191,14 +191,28 @@ def init_fantasy5_data(force_reload: bool = False):
 
     # 补充数据: 2022年8月-12月 + 2023年8月-12月 + 2024年8月-12月
     from data.supplement_data import ALL_SUPPLEMENT_DATA
+    
+    # 早期月份补充: 2024年7月-12月 + 2023年8月-12月
+    try:
+        from data.supplement_early_months import SUPPLEMENT_EARLY_DATA
+        all_data = SEED_DATA_FANTASY5 + ALL_SUPPLEMENT_DATA + SUPPLEMENT_EARLY_DATA
+    except ImportError:
+        all_data = SEED_DATA_FANTASY5 + ALL_SUPPLEMENT_DATA
+    
+    # Puppeteer抓取补充数据: 2022-2025完整数据
+    try:
+        from data.supplement_scraped import SUPPLEMENT_SCRAPED_DATA
+        all_data = all_data + SUPPLEMENT_SCRAPED_DATA
+    except ImportError:
+        pass
 
     # 合并所有数据(按日期排序, 去重)
-    all_data = SEED_DATA_FANTASY5 + ALL_SUPPLEMENT_DATA
+    all_data_merged = all_data
 
     # 去重(按draw_date)
     seen = set()
     unique_data = []
-    for record in all_data:
+    for record in all_data_merged:
         if record["draw_date"] not in seen:
             seen.add(record["draw_date"])
             unique_data.append(record)
@@ -208,5 +222,17 @@ def init_fantasy5_data(force_reload: bool = False):
 
     fetcher.save_history_csv(unique_data, mode="w")
     fetcher.save_latest_json(unique_data)
-    print(f"✅ 初始化 {len(unique_data)} 条Fantasy 5历史数据 (种子{len(SEED_DATA_FANTASY5)} + 补充{len(ALL_SUPPLEMENT_DATA)})")
+    source_info = f"种子{len(SEED_DATA_FANTASY5)}"
+    source_info += f" + 补充{len(ALL_SUPPLEMENT_DATA)}"
+    try:
+        from data.supplement_early_months import SUPPLEMENT_EARLY_DATA
+        source_info += f" + 早期{len(SUPPLEMENT_EARLY_DATA)}"
+    except ImportError:
+        pass
+    try:
+        from data.supplement_scraped import SUPPLEMENT_SCRAPED_DATA
+        source_info += f" + 抓取{len(SUPPLEMENT_SCRAPED_DATA)}"
+    except ImportError:
+        pass
+    print(f"✅ 初始化 {len(unique_data)} 条Fantasy 5历史数据 ({source_info})")
     return fetcher
