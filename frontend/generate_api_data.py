@@ -132,7 +132,7 @@ def generate_frontend_data(game_key: str = DEFAULT_GAME):
     
     # ── 3. 历史准确率(多窗口回测) ──
     monthly_accuracy = []
-    for window in [30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 350, 400]:
+    for window in [30, 60, 100, 150, 200, 250, 300, 350, 400, 500, 600, 700]:
         if total >= window + 50:
             bt = runner.run_backtest(window=window)
             stats = bt.get("avoid_stats", {})
