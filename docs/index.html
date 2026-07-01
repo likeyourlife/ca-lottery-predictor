@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>加州天天乐预测分析 | CA Fantasy 5 Prediction</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="prediction_engines.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -198,8 +199,9 @@
         <!-- Run Prediction Button -->
         <div style="text-align:center; margin:20px 0;">
             <button class="run-btn" id="run-btn" onclick="runPrediction()">🔄 运行预测引擎</button>
-            <button class="run-btn" id="predict-btn" onclick="runFullPipeline()" style="background:linear-gradient(135deg,#a29bfe,#6c5ce7); margin-left:10px;">🚀 运行完整管线(预测+回测+数据生成)</button>
+            <button class="run-btn" id="js-run-btn" onclick="runJSPredictionUI()" style="background:linear-gradient(135deg,#4ecdc4,#2ecc71); margin-left:10px;">⚡ 浏览器端即时预测 (无需后端)</button>
             <div id="run-status" style="margin-top:10px; color:#8888aa; font-size:0.9em;"></div>
+            <div id="env-badge" style="margin-top:5px;"></div>
         </div>
         
         <!-- Row 1: Today's Prediction + Today's Winning Numbers -->
@@ -282,6 +284,27 @@
     </div>
 
     <script>
+        // ── Environment Detection ──
+        let hasBackendAPI = false;
+        let drawData = null;  // 原始开奖数据 (for JS engine)
+        
+        async function detectEnvironment() {
+            try {
+                const resp = await fetch('/api/status', {signal: AbortSignal.timeout(2000)});
+                if (resp.ok) {
+                    hasBackendAPI = true;
+                    document.getElementById('env-badge').innerHTML = 
+                        '<span style="color:#2ecc71;">🟢 后端API可用 (localhost)</span>';
+                    document.getElementById('run-btn').style.display = 'inline-block';
+                }
+            } catch(e) {
+                hasBackendAPI = false;
+                document.getElementById('env-badge').innerHTML = 
+                    '<span style="color:#4ecdc4;">🔵 纯浏览器模式 (GitHub Pages/无后端)</span>';
+                document.getElementById('run-btn').style.display = 'none';
+            }
+        }
+        
         // ── Data Loading ──
         let predictionData = null;
         let recentDraws = null;
@@ -299,14 +322,23 @@
                 consecutiveAbsence = await fetchJSON('consecutive_absence.json');
                 dataReady = true;
                 renderAll();
-                document.getElementById('run-status').textContent = '';
+                document.getElementById('run-status').textContent = '✅ 预生成数据已加载';
+                document.getElementById('run-status').style.color = '#2ecc71';
             } catch(e) {
-                console.error('Data load error:', e);
+                console.log('Pre-generated data not found, falling back to JS engine');
                 dataReady = false;
-                document.getElementById('prediction-content').innerHTML = 
-                    '<p style="color:#ff6b6b; text-align:center;">⚠️ 数据加载失败 — JSON文件不存在或格式错误。<br>请点击上方<strong>"运行预测引擎"</strong>按钮生成数据。</p>';
-                document.getElementById('winning-content').innerHTML = 
-                    '<p style="color:#8888aa; text-align:center;">等待预测引擎运行...</p>';
+                // 尝试加载 draw_data.json 并用 JS 引擎计算
+                try {
+                    drawData = await fetchJSON('draw_data.json');
+                    document.getElementById('run-status').textContent = 
+                        '💡 预生成数据不可用，请点击⚡浏览器端即时预测按钮';
+                    document.getElementById('run-status').style.color = '#4ecdc4';
+                    document.getElementById('prediction-content').innerHTML = 
+                        '<p style="color:#4ecdc4; text-align:center;">历史数据已就绪（' + drawData.length + '期），<br>请点击<strong>⚡浏览器端即时预测</strong>按钮运行引擎。</p>';
+                } catch(e2) {
+                    document.getElementById('prediction-content').innerHTML = 
+                        '<p style="color:#ff6b6b; text-align:center;">⚠️ 数据加载失败。<br>本地: 启动 Node server；线上: 等待 GitHub Actions 自动更新。</p>';
+                }
             }
         }
         
@@ -316,72 +348,85 @@
             return resp.json();
         }
         
-        // ── Run Prediction Engine (generate_api_data.py only) ──
+        // ── Backend API: Run Prediction ──
         async function runPrediction() {
+            if (!hasBackendAPI) return;
             const btn = document.getElementById('run-btn');
             const statusEl = document.getElementById('run-status');
             btn.disabled = true;
             btn.textContent = '⏳ 预测引擎运行中...';
-            statusEl.textContent = '正在调用后端API运行预测引擎，请稍候（约30秒）...';
+            statusEl.textContent = '正在调用后端API运行预测引擎，约30秒...';
             statusEl.style.color = '#f0c040';
             
             try {
                 const resp = await fetch('/api/run');
                 const result = await resp.json();
-                
-                if (result.status === 'running') {
-                    statusEl.textContent = '引擎正在运行中，请等待完成后再试';
-                    statusEl.style.color = '#ff6b6b';
-                } else if (result.status === 'success') {
+                if (result.status === 'success') {
                     statusEl.textContent = '✅ 预测引擎运行完成！正在刷新数据...';
                     statusEl.style.color = '#2ecc71';
-                    // Reload all JSON data
                     await loadData();
                 } else {
                     statusEl.textContent = '❌ 运行失败: ' + (result.stderr || result.message);
                     statusEl.style.color = '#ff6b6b';
                 }
             } catch(e) {
-                statusEl.textContent = '❌ 无法连接后端API — 请确认 Node server 在 localhost:8899 运行';
+                statusEl.textContent = '❌ 无法连接后端API';
                 statusEl.style.color = '#ff6b6b';
-                console.error('API error:', e);
             }
-            
             btn.disabled = false;
             btn.textContent = '🔄 运行预测引擎';
         }
         
-        // ── Run Full Pipeline (daily_pipeline + generate_api_data) ──
-        async function runFullPipeline() {
-            const btn = document.getElementById('predict-btn');
+        // ── JS Engine: Browser-side Prediction ──
+        async function runJSPredictionUI() {
+            const btn = document.getElementById('js-run-btn');
             const statusEl = document.getElementById('run-status');
             btn.disabled = true;
-            btn.textContent = '⏳ 完整管线运行中...';
-            statusEl.textContent = '正在运行完整预测管线（初始化→回测→预测→数据生成），约2-5分钟...';
-            statusEl.style.color = '#a29bfe';
+            btn.textContent = '⏳ 浏览器引擎计算中...';
+            statusEl.textContent = '正在加载历史数据并运行6引擎融合预测...';
+            statusEl.style.color = '#4ecdc4';
             
             try {
-                const resp = await fetch('/api/predict');
-                const result = await resp.json();
-                
-                if (result.status === 'running') {
-                    statusEl.textContent = '管线正在运行中，请等待完成后再试';
-                    statusEl.style.color = '#ff6b6b';
-                } else if (result.status === 'success') {
-                    statusEl.textContent = '✅ 完整管线运行完成！正在刷新数据...';
-                    statusEl.style.color = '#2ecc71';
-                    await loadData();
-                } else {
-                    statusEl.textContent = '❌ 管线运行失败: ' + (result.stderr || result.message);
-                    statusEl.style.color = '#ff6b6b';
+                // 加载 draw_data (如果还没加载)
+                if (!drawData) {
+                    drawData = await fetchJSON('draw_data.json');
                 }
+                
+                statusEl.textContent = `已加载 ${drawData.length} 期数据，正在计算6引擎融合预测...`;
+                
+                // 运行 JS 预测引擎
+                const startTime = performance.now();
+                predictionData = runJSPrediction(drawData);
+                const elapsed = ((performance.now() - startTime) / 1000).toFixed(1);
+                
+                // 连续不中奖期数
+                const absenceData = computeConsecutiveAbsence(drawData);
+                consecutiveAbsence = {};
+                for (let n = 1; n <= 39; n++) consecutiveAbsence[n] = absenceData[n];
+                
+                // 最近10期对比
+                recentDraws = computeRecentDraws(drawData);
+                
+                // 每日准确率
+                dailyAccuracy = computeDailyAccuracy(drawData);
+                
+                // monthly_accuracy 从预生成数据加载(JS计算太慢)
+                try { monthlyAccuracy = await fetchJSON('monthly_accuracy.json'); } catch(e) { monthlyAccuracy = []; }
+                
+                dataReady = true;
+                renderAll();
+                
+                statusEl.textContent = `✅ 浏览器端预测完成！耗时 ${elapsed}s | ${drawData.length}期数据`;
+                statusEl.style.color = '#2ecc71';
+                
             } catch(e) {
-                statusEl.textContent = '❌ 无法连接后端API';
+                statusEl.textContent = '❌ 浏览器端预测失败: ' + e.message;
                 statusEl.style.color = '#ff6b6b';
+                console.error('JS prediction error:', e);
             }
             
             btn.disabled = false;
-            btn.textContent = '🚀 运行完整管线(预测+回测+数据生成)';
+            btn.textContent = '⚡ 浏览器端即时预测 (无需后端)';
         }
         
         // ── Render Functions ──
@@ -599,7 +644,7 @@
         }
         
         // ── Initial Load ──
-        loadData();
+        detectEnvironment().then(() => loadData());
     </script>
 </body>
 </html>
