@@ -38,7 +38,7 @@ def daily_pipeline(game_key: str = DEFAULT_GAME):
     # Step 2: 运行回测(100期)
     print("\n[Step 2] 100期回测验证...")
     runner = BacktestRunner(game_key)
-    bt_result = runner.run_backtest(records, window=100)
+    bt_result = runner.run_backtest(window=100)
     avoid_stats = bt_result["avoid_stats"]
     for level in TOP_N_LEVELS:
         stats = avoid_stats[level]
@@ -61,7 +61,7 @@ def daily_pipeline(game_key: str = DEFAULT_GAME):
     
     # Step 5: 保存回测结果
     bt_output = {
-        "date": records[-1]["date"] if records else "unknown",
+        "date": records[-1]["draw_date"] if records else "unknown",
         "data_count": len(records),
         "avoid_stats": {
             str(level): {
