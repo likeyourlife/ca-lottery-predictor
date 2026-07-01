@@ -36,10 +36,11 @@ jobs:
           sys.path.insert(0, '.')
           from data.fetcher import init_fantasy5_data
           fetcher = init_fantasy5_data()
-          draws = [{'d': d['date'], 'n': d['numbers']} for d in fetcher.all_draws]
+          draws = fetcher.get_all_draws()
+          compact = [{'d': d['draw_date'], 'n': [d['num1'], d['num2'], d['num3'], d['num4'], d['num5']]} for d in draws]
           with open('frontend/draw_data.json', 'w') as f:
-              json.dump(draws, f, separators=(',', ':'))
-          print(f'Updated draw_data.json: {len(draws)} records')
+              json.dump(compact, f, separators=(',', ':'))
+          print(f'Updated draw_data.json: {len(compact)} records')
           "
 
       - name: Build docs for GitHub Pages
