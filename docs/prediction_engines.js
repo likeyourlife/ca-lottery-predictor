@@ -517,8 +517,11 @@ function runJSPrediction(drawData) {
         result.rebound[`top${level}`] = reboundTop.map(([num, pLowRebound, detail]) => ({
             number: num,
             p_low: pLowRebound,
+            p_low_base: detail.p_low_base,
             gap: detail.gap,
             gap_bonus: detail.gap_bonus,
+            cold_bonus: detail.cold_bonus,
+            recent_count: detail.recent_count,
         }));
     }
     
