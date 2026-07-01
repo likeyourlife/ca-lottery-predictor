@@ -196,7 +196,11 @@
         </div>
         
         <!-- Run Prediction Button -->
-        <button class="run-btn" onclick="runPrediction()">🔄 运行预测引擎</button>
+        <div style="text-align:center; margin:20px 0;">
+            <button class="run-btn" id="run-btn" onclick="runPrediction()">🔄 运行预测引擎</button>
+            <button class="run-btn" id="predict-btn" onclick="runFullPipeline()" style="background:linear-gradient(135deg,#a29bfe,#6c5ce7); margin-left:10px;">🚀 运行完整管线(预测+回测+数据生成)</button>
+            <div id="run-status" style="margin-top:10px; color:#8888aa; font-size:0.9em;"></div>
+        </div>
         
         <!-- Row 1: Today's Prediction + Today's Winning Numbers -->
         <div class="grid grid-2">
@@ -274,7 +278,7 @@
     
     <div class="footer">
         <p>California Fantasy 5 Prediction System v2.0 | 6-Engine Fusion | Abyss</p>
-        <p>Data: 682 draws (2022.8 - 2026.6) | Top10命中率: 80.00% > Baseline 79.37%</p>
+        <p id="footer-data-info">Data: 1001 draws (2022.1 - 2026.6) | Top10命中率: 80% > Baseline 79.37%</p>
     </div>
 
     <script>
@@ -284,6 +288,7 @@
         let monthlyAccuracy = null;
         let dailyAccuracy = null;
         let consecutiveAbsence = null;
+        let dataReady = false;
         
         async function loadData() {
             try {
@@ -292,11 +297,16 @@
                 monthlyAccuracy = await fetchJSON('monthly_accuracy.json');
                 dailyAccuracy = await fetchJSON('daily_accuracy.json');
                 consecutiveAbsence = await fetchJSON('consecutive_absence.json');
+                dataReady = true;
                 renderAll();
+                document.getElementById('run-status').textContent = '';
             } catch(e) {
                 console.error('Data load error:', e);
+                dataReady = false;
                 document.getElementById('prediction-content').innerHTML = 
-                    '<p style="color:#ff6b6b;">数据加载失败，请先运行预测引擎生成数据</p>';
+                    '<p style="color:#ff6b6b; text-align:center;">⚠️ 数据加载失败 — JSON文件不存在或格式错误。<br>请点击上方<strong>"运行预测引擎"</strong>按钮生成数据。</p>';
+                document.getElementById('winning-content').innerHTML = 
+                    '<p style="color:#8888aa; text-align:center;">等待预测引擎运行...</p>';
             }
         }
         
@@ -306,10 +316,72 @@
             return resp.json();
         }
         
-        function runPrediction() {
-            // 实际项目中这里会调用后端API
-            // 目前是静态前端，需先运行Python脚本生成JSON数据
-            loadData();
+        // ── Run Prediction Engine (generate_api_data.py only) ──
+        async function runPrediction() {
+            const btn = document.getElementById('run-btn');
+            const statusEl = document.getElementById('run-status');
+            btn.disabled = true;
+            btn.textContent = '⏳ 预测引擎运行中...';
+            statusEl.textContent = '正在调用后端API运行预测引擎，请稍候（约30秒）...';
+            statusEl.style.color = '#f0c040';
+            
+            try {
+                const resp = await fetch('/api/run');
+                const result = await resp.json();
+                
+                if (result.status === 'running') {
+                    statusEl.textContent = '引擎正在运行中，请等待完成后再试';
+                    statusEl.style.color = '#ff6b6b';
+                } else if (result.status === 'success') {
+                    statusEl.textContent = '✅ 预测引擎运行完成！正在刷新数据...';
+                    statusEl.style.color = '#2ecc71';
+                    // Reload all JSON data
+                    await loadData();
+                } else {
+                    statusEl.textContent = '❌ 运行失败: ' + (result.stderr || result.message);
+                    statusEl.style.color = '#ff6b6b';
+                }
+            } catch(e) {
+                statusEl.textContent = '❌ 无法连接后端API — 请确认 Node server 在 localhost:8899 运行';
+                statusEl.style.color = '#ff6b6b';
+                console.error('API error:', e);
+            }
+            
+            btn.disabled = false;
+            btn.textContent = '🔄 运行预测引擎';
+        }
+        
+        // ── Run Full Pipeline (daily_pipeline + generate_api_data) ──
+        async function runFullPipeline() {
+            const btn = document.getElementById('predict-btn');
+            const statusEl = document.getElementById('run-status');
+            btn.disabled = true;
+            btn.textContent = '⏳ 完整管线运行中...';
+            statusEl.textContent = '正在运行完整预测管线（初始化→回测→预测→数据生成），约2-5分钟...';
+            statusEl.style.color = '#a29bfe';
+            
+            try {
+                const resp = await fetch('/api/predict');
+                const result = await resp.json();
+                
+                if (result.status === 'running') {
+                    statusEl.textContent = '管线正在运行中，请等待完成后再试';
+                    statusEl.style.color = '#ff6b6b';
+                } else if (result.status === 'success') {
+                    statusEl.textContent = '✅ 完整管线运行完成！正在刷新数据...';
+                    statusEl.style.color = '#2ecc71';
+                    await loadData();
+                } else {
+                    statusEl.textContent = '❌ 管线运行失败: ' + (result.stderr || result.message);
+                    statusEl.style.color = '#ff6b6b';
+                }
+            } catch(e) {
+                statusEl.textContent = '❌ 无法连接后端API';
+                statusEl.style.color = '#ff6b6b';
+            }
+            
+            btn.disabled = false;
+            btn.textContent = '🚀 运行完整管线(预测+回测+数据生成)';
         }
         
         // ── Render Functions ──
