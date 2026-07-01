@@ -312,6 +312,8 @@
         let dailyAccuracy = null;
         let consecutiveAbsence = null;
         let dataReady = false;
+        let monthlyChartInstance = null;
+        let dailyChartInstance = null;
         
         async function loadData() {
             try {
@@ -538,10 +540,13 @@
         function renderMonthlyChart() {
             if (!monthlyAccuracy || monthlyAccuracy.length === 0) return;
             
+            // 销毁旧Chart实例防止canvas reuse报错
+            if (monthlyChartInstance) { monthlyChartInstance.destroy(); monthlyChartInstance = null; }
+            
             const ctx = document.getElementById('monthlyChart').getContext('2d');
             const labels = monthlyAccuracy.map(m => `近${m.window}期`);
             
-            new Chart(ctx, {
+            monthlyChartInstance = new Chart(ctx, {
                 type: 'line',
                 data: {
                     labels: labels,
@@ -586,6 +591,9 @@
         function renderDailyChart() {
             if (!dailyAccuracy || dailyAccuracy.length === 0) return;
             
+            // 销毁旧Chart实例防止canvas reuse报错
+            if (dailyChartInstance) { dailyChartInstance.destroy(); dailyChartInstance = null; }
+            
             const ctx = document.getElementById('dailyChart').getContext('2d');
             const labels = dailyAccuracy.map(d => d.date || '');
             
@@ -601,7 +609,7 @@
                 cumTop10.push((hits10 / (i+1)) * 100);
             }
             
-            new Chart(ctx, {
+            dailyChartInstance = new Chart(ctx, {
                 type: 'line',
                 data: {
                     labels: labels,
