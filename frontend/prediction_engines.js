@@ -3,12 +3,12 @@
  * 纯浏览器端运行的预测引擎, 不依赖后端
  * 
  * 引擎对应:
- * - E1 频次偏差 (8%)  → FrequencyEngine
- * - E2 贝叶斯 (22%)   → BayesianEngine
- * - E3 马尔可夫 (36%)  → MarkovEngine
- * - E4 连号联合 (34%)  → JointEngine
- * - E5 FFT周期 (1%)   → FFTEngine (简化DFT)
- * - E6 蒙特卡洛 (0%)  → 跳过
+ * - E1 频次偏差 (2%)   → FrequencyEngine
+ * - E2 贝叶斯 (10%)    → BayesianEngine
+ * - E3 马尔可夫 (60%)⭐ → MarkovEngine
+ * - E4 连号联合 (26%)⭐ → JointEngine
+ * - E5 FFT周期 (2%)    → FFTEngine (简化DFT)
+ * - E6 蒙特卡洛 (0%)   → 跳过
  * 
  * 数据格式: draw_data.json = [{d:"2022-01-01",n:[2,5,25,26,38]}, ...]
  */
@@ -20,13 +20,13 @@ const THEORETICAL_PROB = 5 / 39;    // ≈ 0.1282
 const THEORETICAL_LOW = 34 / 39;    // ≈ 0.8718
 const NUMBER_POOL = Array.from({length: 39}, (_, i) => i + 1);
 
-// 引擎权重 (回测驱动优化 v2)
+// 引擎权重 (回测驱动优化 v3: 马尔可夫60%, 连号联合26%, 贝叶斯10%)
 const ENGINE_WEIGHTS = {
-    freq: 0.08,
-    bayesian: 0.22,
-    markov: 0.36,
-    joint: 0.34,
-    fft: 0.01,
+    freq: 0.02,
+    bayesian: 0.10,
+    markov: 0.60,
+    joint: 0.26,
+    fft: 0.02,
 };
 
 // 贝叶斯先验
