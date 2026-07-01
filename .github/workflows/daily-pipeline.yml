@@ -24,14 +24,26 @@ jobs:
       - name: Install dependencies
         run: pip install numpy scipy
 
-      - name: Scrape latest data
-        run: python data/fetcher.py
-
       - name: Run prediction pipeline
-        run: python pipeline/daily_pipeline.py
+        run: python daily_pipeline.py
+        working-directory: ${{ github.workspace }}
 
       - name: Generate frontend data
         run: python frontend/generate_api_data.py
+        working-directory: ${{ github.workspace }}
+
+      - name: Update draw_data.json
+        run: python -c "
+          import json, sys
+          sys.path.insert(0, '.')
+          from data.fetcher import init_fantasy5_data
+          fetcher = init_fantasy5_data()
+          draws = [{'d': d['date'], 'n': d['numbers']} for d in fetcher.all_draws]
+          with open('frontend/draw_data.json', 'w') as f:
+              json.dump(draws, f, separators=(',', ':'))
+          print(f'Updated draw_data.json: {len(draws)} records')
+          "
+        working-directory: ${{ github.workspace }}
 
       - name: Build docs for GitHub Pages
         run: |
@@ -40,6 +52,7 @@ jobs:
           cp frontend/prediction_engines.js docs/
           cp frontend/draw_data.json docs/
           cp frontend/api_data/*.json docs/
+          cp docs/daily-pipeline.yml.template docs/ 2>/dev/null || true
           cp frontend/README.md docs/ 2>/dev/null || true
 
       - name: Commit and push docs
