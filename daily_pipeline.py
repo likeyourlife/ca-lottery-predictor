@@ -11,7 +11,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from config import DEFAULT_GAME, ENGINE_WEIGHTS, TOP_N_LEVELS
+from config import DEFAULT_GAME, ENGINE_WEIGHTS, TOP_N_LEVELS, BACKTEST_CONFIG
 from data.fetcher import DataFetcher, init_fantasy5_data
 from data.processor import DataProcessor
 from engines.engine_fusion import EngineFusion
@@ -30,15 +30,13 @@ def daily_pipeline(game_key: str = DEFAULT_GAME):
     print("=" * 60)
     
     # Step 1: 初始化/更新数据
+    bt_window = BACKTEST_CONFIG.get("window", 200)
     print("\n[Step 1] 数据初始化...")
     fetcher = init_fantasy5_data()
     records = fetcher.get_all_draws()
-    print(f"  当前数据量: {len(records)} 期")
-    
-    # Step 2: 运行回测(100期)
-    print("\n[Step 2] 100期回测验证...")
+    print(f"  当前数据量: {len(records)} 期 | 回测窗口: {bt_window}")
     runner = BacktestRunner(game_key)
-    bt_result = runner.run_backtest(window=100)
+    bt_result = runner.run_backtest(window=bt_window)
     avoid_stats = bt_result["avoid_stats"]
     for level in TOP_N_LEVELS:
         stats = avoid_stats[level]
