@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-07-01",
+    "top2_hit": false,
+    "top4_hit": false,
+    "top10_hit": true,
+    "top2_count": 0,
+    "top4_count": 0,
+    "top10_count": 1
+  },
+  {
     "date": "2026-06-30",
     "top2_hit": false,
     "top4_hit": false,
@@ -51,7 +60,7 @@
     "top10_hit": true,
     "top2_count": 1,
     "top4_count": 1,
-    "top10_count": 2
+    "top10_count": 3
   },
   {
     "date": "2026-06-24",
@@ -129,10 +138,10 @@
     "date": "2026-06-16",
     "top2_hit": false,
     "top4_hit": false,
-    "top10_hit": false,
+    "top10_hit": true,
     "top2_count": 0,
     "top4_count": 0,
-    "top10_count": 0
+    "top10_count": 1
   },
   {
     "date": "2026-06-15",
@@ -192,10 +201,10 @@
     "date": "2026-06-09",
     "top2_hit": false,
     "top4_hit": false,
-    "top10_hit": false,
+    "top10_hit": true,
     "top2_count": 0,
     "top4_count": 0,
-    "top10_count": 0
+    "top10_count": 1
   },
   {
     "date": "2026-06-08",
@@ -258,15 +267,6 @@
     "top10_hit": true,
     "top2_count": 0,
     "top4_count": 1,
-    "top10_count": 2
-  },
-  {
-    "date": "2026-06-01",
-    "top2_hit": false,
-    "top4_hit": false,
-    "top10_hit": true,
-    "top2_count": 0,
-    "top4_count": 0,
-    "top10_count": 2
+    "top10_count": 1
   }
 ]
