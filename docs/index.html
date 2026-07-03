@@ -617,7 +617,9 @@
         }
 
         async function fetchJSON(path) {
-            const resp = await fetch(path);
+            // Cache-bust: append date-based query to force CDN/browser refresh
+            const bust = '?_t=' + new Date().toISOString().slice(0,10);
+            const resp = await fetch(path + bust, { cache: 'no-store' });
             if (!resp.ok) throw new Error(`${path}: ${resp.status}`);
             return resp.json();
         }
