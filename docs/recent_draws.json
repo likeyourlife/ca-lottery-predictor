@@ -1,43 +1,5 @@
 [
   {
-    "date": "2026-06-22",
-    "winning_numbers": [
-      1,
-      5,
-      11,
-      16,
-      24
-    ],
-    "top2_avoid": [
-      3,
-      4
-    ],
-    "top4_avoid": [
-      3,
-      4,
-      7,
-      10
-    ],
-    "top10_avoid": [
-      3,
-      4,
-      7,
-      10,
-      12,
-      15,
-      18,
-      28,
-      29,
-      31
-    ],
-    "top2_hit": false,
-    "top4_hit": false,
-    "top10_hit": false,
-    "top2_hit_count": 0,
-    "top4_hit_count": 0,
-    "top10_hit_count": 0
-  },
-  {
     "date": "2026-06-23",
     "winning_numbers": [
       3,
@@ -218,7 +180,7 @@
       34,
       8,
       9,
-      18
+      14
     ],
     "top2_hit": false,
     "top4_hit": false,
@@ -255,8 +217,8 @@
       31,
       8,
       9,
-      18,
-      21
+      14,
+      16
     ],
     "top2_hit": false,
     "top4_hit": true,
@@ -292,9 +254,9 @@
       31,
       8,
       9,
+      14,
       15,
-      18,
-      21
+      16
     ],
     "top2_hit": false,
     "top4_hit": false,
@@ -329,17 +291,17 @@
       28,
       31,
       8,
+      14,
       15,
-      18,
-      21,
-      26
+      16,
+      17
     ],
     "top2_hit": false,
     "top4_hit": true,
     "top10_hit": true,
     "top2_hit_count": 0,
     "top4_hit_count": 1,
-    "top10_hit_count": 1
+    "top10_hit_count": 2
   },
   {
     "date": "2026-07-01",
@@ -366,16 +328,54 @@
       10,
       31,
       8,
+      14,
       15,
+      16,
       18,
-      21,
-      26,
-      28
+      21
     ],
     "top2_hit": true,
     "top4_hit": true,
     "top10_hit": true,
     "top2_hit_count": 1,
+    "top4_hit_count": 1,
+    "top10_hit_count": 1
+  },
+  {
+    "date": "2026-07-02",
+    "winning_numbers": [
+      4,
+      9,
+      28,
+      35,
+      36
+    ],
+    "top2_avoid": [
+      7,
+      10
+    ],
+    "top4_avoid": [
+      7,
+      10,
+      31,
+      4
+    ],
+    "top10_avoid": [
+      7,
+      10,
+      31,
+      4,
+      8,
+      14,
+      15,
+      16,
+      18,
+      21
+    ],
+    "top2_hit": false,
+    "top4_hit": true,
+    "top10_hit": true,
+    "top2_hit_count": 0,
     "top4_hit_count": 1,
     "top10_hit_count": 1
   }

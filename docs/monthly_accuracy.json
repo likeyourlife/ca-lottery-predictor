@@ -7,63 +7,9 @@
       "margin": -14.29
     },
     "top4": {
-      "hit_rate": 0.2,
+      "hit_rate": 0.1667,
       "baseline": 0.4362,
-      "margin": -23.62
-    },
-    "top10": {
-      "hit_rate": 0.8333,
-      "baseline": 0.7937,
-      "margin": 3.96
-    }
-  },
-  {
-    "window": 60,
-    "top2": {
-      "hit_rate": 0.2333,
-      "baseline": 0.2429,
-      "margin": -0.96
-    },
-    "top4": {
-      "hit_rate": 0.4333,
-      "baseline": 0.4362,
-      "margin": -0.29
-    },
-    "top10": {
-      "hit_rate": 0.7833,
-      "baseline": 0.7937,
-      "margin": -1.04
-    }
-  },
-  {
-    "window": 100,
-    "top2": {
-      "hit_rate": 0.24,
-      "baseline": 0.2429,
-      "margin": -0.29
-    },
-    "top4": {
-      "hit_rate": 0.46,
-      "baseline": 0.4362,
-      "margin": 2.38
-    },
-    "top10": {
-      "hit_rate": 0.76,
-      "baseline": 0.7937,
-      "margin": -3.37
-    }
-  },
-  {
-    "window": 150,
-    "top2": {
-      "hit_rate": 0.2667,
-      "baseline": 0.2429,
-      "margin": 2.38
-    },
-    "top4": {
-      "hit_rate": 0.48,
-      "baseline": 0.4362,
-      "margin": 4.38
+      "margin": -26.95
     },
     "top10": {
       "hit_rate": 0.8,
@@ -72,47 +18,11 @@
     }
   },
   {
-    "window": 200,
+    "window": 100,
     "top2": {
-      "hit_rate": 0.245,
+      "hit_rate": 0.27,
       "baseline": 0.2429,
-      "margin": 0.21
-    },
-    "top4": {
-      "hit_rate": 0.445,
-      "baseline": 0.4362,
-      "margin": 0.88
-    },
-    "top10": {
-      "hit_rate": 0.79,
-      "baseline": 0.7937,
-      "margin": -0.37
-    }
-  },
-  {
-    "window": 250,
-    "top2": {
-      "hit_rate": 0.216,
-      "baseline": 0.2429,
-      "margin": -2.69
-    },
-    "top4": {
-      "hit_rate": 0.404,
-      "baseline": 0.4362,
-      "margin": -3.22
-    },
-    "top10": {
-      "hit_rate": 0.792,
-      "baseline": 0.7937,
-      "margin": -0.17
-    }
-  },
-  {
-    "window": 300,
-    "top2": {
-      "hit_rate": 0.2267,
-      "baseline": 0.2429,
-      "margin": -1.62
+      "margin": 2.71
     },
     "top4": {
       "hit_rate": 0.45,
@@ -120,40 +30,22 @@
       "margin": 1.38
     },
     "top10": {
-      "hit_rate": 0.7967,
+      "hit_rate": 0.75,
       "baseline": 0.7937,
-      "margin": 0.3
-    }
-  },
-  {
-    "window": 350,
-    "top2": {
-      "hit_rate": 0.2543,
-      "baseline": 0.2429,
-      "margin": 1.14
-    },
-    "top4": {
-      "hit_rate": 0.4343,
-      "baseline": 0.4362,
-      "margin": -0.19
-    },
-    "top10": {
-      "hit_rate": 0.8,
-      "baseline": 0.7937,
-      "margin": 0.63
-    }
-  },
-  {
-    "window": 400,
-    "top2": {
-      "hit_rate": 0.21,
-      "baseline": 0.2429,
-      "margin": -3.29
-    },
-    "top4": {
-      "hit_rate": 0.3925,
-      "baseline": 0.4362,
       "margin": -4.37
+    }
+  },
+  {
+    "window": 200,
+    "top2": {
+      "hit_rate": 0.24,
+      "baseline": 0.2429,
+      "margin": -0.29
+    },
+    "top4": {
+      "hit_rate": 0.445,
+      "baseline": 0.4362,
+      "margin": 0.88
     },
     "top10": {
       "hit_rate": 0.785,
@@ -162,11 +54,29 @@
     }
   },
   {
+    "window": 300,
+    "top2": {
+      "hit_rate": 0.23,
+      "baseline": 0.2429,
+      "margin": -1.29
+    },
+    "top4": {
+      "hit_rate": 0.46,
+      "baseline": 0.4362,
+      "margin": 2.38
+    },
+    "top10": {
+      "hit_rate": 0.7933,
+      "baseline": 0.7937,
+      "margin": -0.04
+    }
+  },
+  {
     "window": 500,
     "top2": {
-      "hit_rate": 0.222,
+      "hit_rate": 0.216,
       "baseline": 0.2429,
-      "margin": -2.09
+      "margin": -2.69
     },
     "top4": {
       "hit_rate": 0.402,
@@ -174,45 +84,9 @@
       "margin": -3.42
     },
     "top10": {
-      "hit_rate": 0.802,
+      "hit_rate": 0.798,
       "baseline": 0.7937,
-      "margin": 0.83
-    }
-  },
-  {
-    "window": 600,
-    "top2": {
-      "hit_rate": 0.22,
-      "baseline": 0.2429,
-      "margin": -2.29
-    },
-    "top4": {
-      "hit_rate": 0.4167,
-      "baseline": 0.4362,
-      "margin": -1.95
-    },
-    "top10": {
-      "hit_rate": 0.7683,
-      "baseline": 0.7937,
-      "margin": -2.54
-    }
-  },
-  {
-    "window": 700,
-    "top2": {
-      "hit_rate": 0.2157,
-      "baseline": 0.2429,
-      "margin": -2.72
-    },
-    "top4": {
-      "hit_rate": 0.4229,
-      "baseline": 0.4362,
-      "margin": -1.33
-    },
-    "top10": {
-      "hit_rate": 0.7929,
-      "baseline": 0.7937,
-      "margin": -0.08
+      "margin": 0.43
     }
   }
 ]
