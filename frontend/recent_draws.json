@@ -1,157 +1,5 @@
 [
   {
-    "date": "2026-06-23",
-    "winning_numbers": [
-      3,
-      5,
-      23,
-      32,
-      38
-    ],
-    "top2_avoid": [
-      3,
-      4
-    ],
-    "top4_avoid": [
-      3,
-      4,
-      7,
-      10
-    ],
-    "top10_avoid": [
-      3,
-      4,
-      7,
-      10,
-      12,
-      15,
-      18,
-      28,
-      29,
-      31
-    ],
-    "top2_hit": true,
-    "top4_hit": true,
-    "top10_hit": true,
-    "top2_hit_count": 1,
-    "top4_hit_count": 1,
-    "top10_hit_count": 1
-  },
-  {
-    "date": "2026-06-24",
-    "winning_numbers": [
-      2,
-      3,
-      12,
-      19,
-      36
-    ],
-    "top2_avoid": [
-      4,
-      7
-    ],
-    "top4_avoid": [
-      4,
-      7,
-      10,
-      12
-    ],
-    "top10_avoid": [
-      4,
-      7,
-      10,
-      12,
-      15,
-      18,
-      28,
-      29,
-      31,
-      34
-    ],
-    "top2_hit": false,
-    "top4_hit": true,
-    "top10_hit": true,
-    "top2_hit_count": 0,
-    "top4_hit_count": 1,
-    "top10_hit_count": 1
-  },
-  {
-    "date": "2026-06-25",
-    "winning_numbers": [
-      3,
-      6,
-      18,
-      27,
-      35
-    ],
-    "top2_avoid": [
-      4,
-      7
-    ],
-    "top4_avoid": [
-      4,
-      7,
-      10,
-      15
-    ],
-    "top10_avoid": [
-      4,
-      7,
-      10,
-      15,
-      18,
-      28,
-      29,
-      31,
-      34,
-      8
-    ],
-    "top2_hit": false,
-    "top4_hit": false,
-    "top10_hit": true,
-    "top2_hit_count": 0,
-    "top4_hit_count": 0,
-    "top10_hit_count": 1
-  },
-  {
-    "date": "2026-06-26",
-    "winning_numbers": [
-      12,
-      22,
-      29,
-      33,
-      36
-    ],
-    "top2_avoid": [
-      4,
-      7
-    ],
-    "top4_avoid": [
-      4,
-      7,
-      10,
-      15
-    ],
-    "top10_avoid": [
-      4,
-      7,
-      10,
-      15,
-      28,
-      29,
-      31,
-      34,
-      8,
-      9
-    ],
-    "top2_hit": false,
-    "top4_hit": false,
-    "top10_hit": true,
-    "top2_hit_count": 0,
-    "top4_hit_count": 0,
-    "top10_hit_count": 1
-  },
-  {
     "date": "2026-06-27",
     "winning_numbers": [
       22,
@@ -167,20 +15,20 @@
     "top4_avoid": [
       4,
       7,
-      10,
-      15
+      9,
+      10
     ],
     "top10_avoid": [
       4,
       7,
+      9,
       10,
+      14,
       15,
+      26,
       28,
       31,
-      34,
-      8,
-      9,
-      14
+      34
     ],
     "top2_hit": false,
     "top4_hit": false,
@@ -205,26 +53,26 @@
     "top4_avoid": [
       4,
       7,
-      10,
-      15
+      9,
+      10
     ],
     "top10_avoid": [
       4,
       7,
+      9,
       10,
+      14,
       15,
+      26,
       28,
       31,
-      8,
-      9,
-      14,
-      16
+      6
     ],
     "top2_hit": false,
-    "top4_hit": true,
+    "top4_hit": false,
     "top10_hit": true,
     "top2_hit_count": 0,
-    "top4_hit_count": 1,
+    "top4_hit_count": 0,
     "top10_hit_count": 1
   },
   {
@@ -243,26 +91,26 @@
     "top4_avoid": [
       4,
       7,
-      10,
-      28
+      9,
+      10
     ],
     "top10_avoid": [
       4,
       7,
+      9,
       10,
+      14,
+      26,
       28,
       31,
-      8,
-      9,
-      14,
-      15,
-      16
+      6,
+      8
     ],
     "top2_hit": false,
-    "top4_hit": false,
+    "top4_hit": true,
     "top10_hit": true,
     "top2_hit_count": 0,
-    "top4_hit_count": 0,
+    "top4_hit_count": 1,
     "top10_hit_count": 1
   },
   {
@@ -282,26 +130,26 @@
       4,
       7,
       10,
-      28
+      14
     ],
     "top10_avoid": [
       4,
       7,
       10,
+      14,
+      26,
       28,
       31,
+      6,
       8,
-      14,
-      15,
-      16,
-      17
+      9
     ],
     "top2_hit": false,
-    "top4_hit": true,
+    "top4_hit": false,
     "top10_hit": true,
     "top2_hit_count": 0,
-    "top4_hit_count": 1,
-    "top10_hit_count": 2
+    "top4_hit_count": 0,
+    "top10_hit_count": 1
   },
   {
     "date": "2026-07-01",
@@ -320,19 +168,19 @@
       4,
       7,
       10,
-      31
+      14
     ],
     "top10_avoid": [
       4,
       7,
       10,
-      31,
-      8,
       14,
-      15,
-      16,
-      18,
-      21
+      26,
+      31,
+      6,
+      8,
+      9,
+      15
     ],
     "top2_hit": true,
     "top4_hit": true,
@@ -357,26 +205,178 @@
     "top4_avoid": [
       7,
       10,
-      31,
-      4
+      14,
+      26
     ],
     "top10_avoid": [
       7,
       10,
+      14,
+      26,
       31,
       4,
+      6,
       8,
+      9,
+      15
+    ],
+    "top2_hit": false,
+    "top4_hit": false,
+    "top10_hit": true,
+    "top2_hit_count": 0,
+    "top4_hit_count": 0,
+    "top10_hit_count": 2
+  },
+  {
+    "date": "2026-07-03",
+    "winning_numbers": [
+      4,
+      6,
+      15,
+      26,
+      29
+    ],
+    "top2_avoid": [
+      7,
+      10
+    ],
+    "top4_avoid": [
+      7,
+      10,
       14,
+      26
+    ],
+    "top10_avoid": [
+      7,
+      10,
+      14,
+      26,
+      31,
+      6,
+      8,
       15,
       16,
-      18,
-      21
+      18
     ],
     "top2_hit": false,
     "top4_hit": true,
     "top10_hit": true,
     "top2_hit_count": 0,
     "top4_hit_count": 1,
+    "top10_hit_count": 3
+  },
+  {
+    "date": "2026-07-04",
+    "winning_numbers": [
+      6,
+      11,
+      29,
+      34,
+      38
+    ],
+    "top2_avoid": [
+      7,
+      10
+    ],
+    "top4_avoid": [
+      7,
+      10,
+      14,
+      31
+    ],
+    "top10_avoid": [
+      7,
+      10,
+      14,
+      31,
+      8,
+      16,
+      18,
+      21,
+      24,
+      26
+    ],
+    "top2_hit": false,
+    "top4_hit": false,
+    "top10_hit": false,
+    "top2_hit_count": 0,
+    "top4_hit_count": 0,
+    "top10_hit_count": 0
+  },
+  {
+    "date": "2026-07-05",
+    "winning_numbers": [
+      11,
+      16,
+      17,
+      19,
+      36
+    ],
+    "top2_avoid": [
+      7,
+      10
+    ],
+    "top4_avoid": [
+      7,
+      10,
+      14,
+      31
+    ],
+    "top10_avoid": [
+      7,
+      10,
+      14,
+      31,
+      8,
+      16,
+      18,
+      21,
+      24,
+      26
+    ],
+    "top2_hit": false,
+    "top4_hit": false,
+    "top10_hit": true,
+    "top2_hit_count": 0,
+    "top4_hit_count": 0,
     "top10_hit_count": 1
+  },
+  {
+    "date": "2026-07-06",
+    "winning_numbers": [
+      13,
+      18,
+      21,
+      23,
+      30
+    ],
+    "top2_avoid": [
+      7,
+      10
+    ],
+    "top4_avoid": [
+      7,
+      10,
+      14,
+      31
+    ],
+    "top10_avoid": [
+      7,
+      10,
+      14,
+      31,
+      8,
+      18,
+      21,
+      24,
+      26,
+      30
+    ],
+    "top2_hit": false,
+    "top4_hit": false,
+    "top10_hit": true,
+    "top2_hit_count": 0,
+    "top4_hit_count": 0,
+    "top10_hit_count": 3
   }
 ]

@@ -26,153 +26,142 @@ from backtest.backtest_runner import BacktestRunner
 
 
 def fetch_new_draws_from_web(fetcher: DataFetcher) -> int:
-    """从公开网页抓取最新开奖数据(纯Python, 无Puppeteer依赖)"""
+    """从公开网页抓取最新开奖数据(纯Python, 无Puppeteer依赖)
+    
+    数据源优先级(2026-07更新):
+    1. california.lottonumbers.com — 187期可提取, <li class="ball">格式
+    2. lotterycorner.com — 187期可提取, <div class="number">格式  
+    3. lotteryusa.com/year — SSR渲染, 需特定正则
+    
+    已失效源(2026-07): calottery.com(403), gidapp.com(403)
+    """
     existing = fetcher.get_all_draws()
     last_date = existing[-1]["draw_date"] if existing else "2020-01-01"
     
     new_records = []
+    current_year = datetime.now().year
+    UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     
-    # 数据源1: california.lottonumbers.com (HTML解析)
+    # ── 数据源1: california.lottonumbers.com ──
+    # 格式: <td>MM/DD/YYYY</td> ... <li class="ball ...">NUM</li>
     try:
-        url = "https://california.lottonumbers.com/fantasy-5/past-numbers/2026"
+        url = f"https://california.lottonumbers.com/fantasy-5/past-numbers/{current_year}"
         req = urllib.request.Request(url, headers={
-            'User-Agent': 'Mozilla/5.0 (compatible; ca-lottery-predictor)',
-            'Accept': 'text/html',
+            'User-Agent': UA, 'Accept': 'text/html',
         })
         with urllib.request.urlopen(req, timeout=30) as resp:
             html = resp.read().decode('utf-8', errors='replace')
         
-        # 解析HTML中的开奖数据 (匹配类似: <td>07/01/2026</td> ... <td>5</td><td>11</td>... )
-        # 通用匹配: 日期格式 MM/DD/YYYY 或 YYYY-MM-DD, 后跟5个1-39的数字
-        date_pattern = r'(\d{2}/\d{2}/\d{4}|\d{4}-\d{2}-\d{2})'
-        num_pattern = r'(?<![a-zA-Z])(\d{1,2})(?![a-zA-Z])'
-        
-        # 更健壮的提取方式: 找所有包含日期和5个数字的行
-        rows = re.findall(
-            r'(?:20\d{2}[-/]\d{2}[-/]\d{2}|\d{2}[-/]\d{2}[-/]20\d{2})[^<]*?(?:<td[^>]*>|\s+)(\d{1,2})[^<]*?(?:<td[^>]*>|\s+)(\d{1,2})[^<]*?(?:<td[^>]*>|\s+)(\d{1,2})[^<]*?(?:<td[^>]*>|\s+)(\d{1,2})[^<]*?(?:<td[^>]*>|\s+)(\d{1,2})',
-            html
-        )
-        
-        # 备用: 从页面中提取所有日期-数字组合
-        # 先找所有日期, 然后在每个日期后面找5个1-39的数字
-        all_dates = re.findall(r'(20\d{2}[-/]\d{2}[-/]\d{2}|\d{2}[-/]\d{2}[-/]20\d{2})', html)
-        all_nums_in_range = [int(n) for n in re.findall(r'(?<![a-zA-Z">])(\d{1,2})(?![a-zA-Z"<])', html) if 1 <= int(n) <= 39]
-        
-        # 尝试提取最近5天的数据
-        for date_str in all_dates[:30]:  # 只看最近的日期
-            # 统一日期格式为 YYYY-MM-DD
-            if '/' in date_str:
-                parts = date_str.split('/')
-                if len(parts[0]) == 4:  # YYYY/MM/DD
-                    normalized = f"{parts[0]}-{parts[1]}-{parts[2]}"
-                else:  # MM/DD/YYYY
-                    normalized = f"{parts[2]}-{parts[0]}-{parts[1]}"
-            else:
-                normalized = date_str
+        for date_match in re.finditer(r'(\d{2}/\d{2}/\d{4})', html):
+            raw = date_match.group(1)
+            parts = raw.split('/')
+            normalized = f'{parts[2]}-{parts[0]}-{parts[1]}'
             
             if normalized <= last_date:
-                continue  # 跳过已存在的日期
+                continue
             
-            # 在这个日期附近找5个数字(在HTML中日期和数字通常在同一行或相邻行)
-            # 使用简单策略: 在html中找该日期出现的位置, 然后取后面最近的5个1-39数字
-            pos = html.find(date_str)
-            if pos >= 0:
-                # 从日期位置往后200字符内找数字
-                chunk = html[pos:pos+200]
-                nums_in_chunk = [int(n) for n in re.findall(r'(?<![a-zA-Z">])(\d{1,2})(?![a-zA-Z"<])', chunk) if 1 <= int(n) <= 39]
-                if len(nums_in_chunk) >= 5:
-                    # 取前5个有效数字
-                    numbers = nums_in_chunk[:5]
-                    new_records.append({
-                        'draw_date': normalized,
-                        'num1': numbers[0], 'num2': numbers[1],
-                        'num3': numbers[2], 'num4': numbers[3],
-                        'num5': numbers[4],
-                        'jackpot_amount': 0,
-                    })
+            chunk = html[date_match.start():date_match.start() + 500]
+            # 匹配 <li class="ball ...">NUM</li>
+            nums = [int(n) for n in re.findall(
+                r'<li[^>]*class="ball[^"]*"[^>]*>\s*(\d{1,2})\s*</li>', chunk
+            ) if 1 <= int(n) <= 39]
+            
+            if len(nums) >= 5 and not any(r['draw_date'] == normalized for r in new_records):
+                new_records.append({
+                    'draw_date': normalized,
+                    'num1': nums[0], 'num2': nums[1],
+                    'num3': nums[2], 'num4': nums[3],
+                    'num5': nums[4],
+                    'jackpot_amount': 0,
+                })
+        
+        print(f"  📡 california.lottonumbers.com: 提取 {len([r for r in new_records if r['draw_date'] > last_date])} 条新数据")
     except Exception as e:
-        print(f"  ⚠️ california.lottonumbers.com抓取失败: {e}")
+        print(f"  ⚠️ california.lottonumbers.com失败: {e}")
 
-    # 数据源2: lotteryusa.com (更可靠, 格式更简单)
+    # ── 数据源2: lotterycorner.com ──
+    # 格式: Month DD, YYYY ... <div class="number">NUM</div>
     try:
-        url2 = "https://www.lotteryusa.com/california/fantasy-5/"
+        url2 = f"https://lotterycorner.com/ca/fantasy-5/{current_year}"
         req2 = urllib.request.Request(url2, headers={
-            'User-Agent': 'Mozilla/5.0 (compatible; ca-lottery-predictor)',
-            'Accept': 'text/html',
+            'User-Agent': UA, 'Accept': 'text/html',
         })
         with urllib.request.urlopen(req2, timeout=30) as resp2:
             html2 = resp2.read().decode('utf-8', errors='replace')
         
-        # lotteryusa.com格式: 日期后面紧跟5个数字
-        # 匹配: "Monday, Jun 29, 2026" 后面有 5个 1-39的数字
-        date_blocks = re.finditer(
-            r'(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s*'
-            r'(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s+20\d{2}',
-            html2
-        )
-        
-        for match in date_blocks:
-            raw_date = match.group()
-            # 转换为 YYYY-MM-DD
-            dt = datetime.strptime(raw_date, "%A, %b %d, %Y")
-            normalized = dt.strftime("%Y-%m-%d")
+        months = 'January|February|March|April|May|June|July|August|September|October|November|December'
+        for date_match in re.finditer(f'({months})\\s+(\\d{{1,2}}),\\s+(\\d{{4}})', html2):
+            raw = date_match.group()
+            dt = datetime.strptime(raw, '%B %d, %Y')
+            normalized = dt.strftime('%Y-%m-%d')
             
             if normalized <= last_date:
                 continue
             
-            # 在日期块后面找5个数字
-            chunk = html2[match.start():match.start()+300]
-            nums = [int(n) for n in re.findall(r'(?<![a-zA-Z">])(\d{1,2})(?![a-zA-Z"<])', chunk) if 1 <= int(n) <= 39]
-            if len(nums) >= 5:
-                numbers = nums[:5]
-                # 检查是否已存在(从数据源1可能已获取)
-                if not any(r['draw_date'] == normalized for r in new_records):
-                    new_records.append({
-                        'draw_date': normalized,
-                        'num1': numbers[0], 'num2': numbers[1],
-                        'num3': numbers[2], 'num4': numbers[3],
-                        'num5': numbers[4],
-                        'jackpot_amount': 0,
-                    })
+            chunk = html2[date_match.start():date_match.start() + 500]
+            # 匹配 <div class="number">NUM</div>
+            nums = [int(n) for n in re.findall(
+                r'class="number"[^>]*>\s*(\d{1,2})\s*</div>', chunk
+            ) if 1 <= int(n) <= 39]
+            
+            if len(nums) >= 5 and not any(r['draw_date'] == normalized for r in new_records):
+                new_records.append({
+                    'draw_date': normalized,
+                    'num1': nums[0], 'num2': nums[1],
+                    'num3': nums[2], 'num4': nums[3],
+                    'num5': nums[4],
+                    'jackpot_amount': 0,
+                })
+        
+        print(f"  📡 lotterycorner.com: 补充提取完成")
     except Exception as e:
-        print(f"  ⚠️ lotteryusa.com抓取失败: {e}")
+        print(f"  ⚠️ lotterycorner.com失败: {e}")
 
-    # 数据源3: gidapp.com (JSON API, 最简洁)
+    # ── 数据源3: lotteryusa.com/year ──
+    # SSR渲染HTML, 日期在文本中, 号码在<span>NUM</span>标签
     try:
-        url3 = "https://us.gidapp.com/lottery/ca/fantasy-5"
+        url3 = f"https://www.lotteryusa.com/california/fantasy-5/year"
         req3 = urllib.request.Request(url3, headers={
-            'User-Agent': 'Mozilla/5.0 (compatible; ca-lottery-predictor)',
+            'User-Agent': UA, 'Accept': 'text/html',
         })
         with urllib.request.urlopen(req3, timeout=30) as resp3:
             html3 = resp3.read().decode('utf-8', errors='replace')
         
-        # gidapp格式: "Winning Numbers for Wednesday, July 1, 2026" 或类似
-        date_blocks = re.finditer(
-            r'Winning Numbers for\s+(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+'
-            r'(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+20\d{2}',
-            html3
-        )
-        for match in date_blocks:
-            raw_date = match.group().replace('Winning Numbers for ', '')
-            dt = datetime.strptime(raw_date, "%A, %B %d, %Y")
-            normalized = dt.strftime("%Y-%m-%d")
+        # lotteryusa格式: "Day, Mon DD, YYYY" + numbers in nearby tags
+        days = 'Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday'
+        mons = 'Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec'
+        for date_match in re.finditer(
+            f'({days}),\\s*({mons})\\s+(\\d{{1,2}}),\\s+(\\d{{4}})', html3
+        ):
+            raw = date_match.group()
+            dt = datetime.strptime(raw, '%A, %b %d, %Y')
+            normalized = dt.strftime('%Y-%m-%d')
             
             if normalized <= last_date:
                 continue
             
-            chunk = html3[match.start():match.start()+400]
-            nums = [int(n) for n in re.findall(r'(?<![a-zA-Z">])(\d{1,2})(?![a-zA-Z"<])', chunk) if 1 <= int(n) <= 39]
-            if len(nums) >= 5:
-                if not any(r['draw_date'] == normalized for r in new_records):
-                    new_records.append({
-                        'draw_date': normalized,
-                        'num1': nums[0], 'num2': nums[1],
-                        'num3': nums[2], 'num4': nums[3],
-                        'num5': nums[4],
-                        'jackpot_amount': 0,
-                    })
+            chunk = html3[date_match.start():date_match.start() + 400]
+            # 号码可能在 <span>NUM</span> 或纯文本中
+            nums = [int(n) for n in re.findall(
+                r'<span[^>]*>\s*(\d{1,2})\s*</span>', chunk
+            ) if 1 <= int(n) <= 39]
+            if len(nums) < 5:
+                nums = [int(n) for n in re.findall(
+                    r'>(\d{1,2})<', chunk
+                ) if 1 <= int(n) <= 39]
+            
+            if len(nums) >= 5 and not any(r['draw_date'] == normalized for r in new_records):
+                new_records.append({
+                    'draw_date': normalized,
+                    'num1': nums[0], 'num2': nums[1],
+                    'num3': nums[2], 'num4': nums[3],
+                    'num5': nums[4],
+                    'jackpot_amount': 0,
+                })
+        
+        print(f"  📡 lotteryusa.com/year: 补充提取完成")
     except Exception as e:
-        print(f"  ⚠️ gidapp.com抓取失败: {e}")
+        print(f"  ⚠️ lotteryusa.com/year失败: {e}")
 
     # 添加新数据到CSV
     if new_records:
